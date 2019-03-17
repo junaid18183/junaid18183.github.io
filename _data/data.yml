@@ -3,89 +3,74 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Juned Memon
+    tagline:  A thorough professional with over 13+ years of experience in system admin,system automation,team building & interpersonal skills. Loves to hack with servers to build and maintain critical production infrastructure and applications
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: junaid18183@gmail.com
+    phone: +91 982 384 1436
+    website: blog.ijuned.com #do not add http://
+    linkedin: junaid18183
+    github: junaid18183
+    #gitlab: 
+    #bitbucket:
+    twitter: '@junaid18183'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Hindi
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Marathi
+        level: Native
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    #interests:
+    #  - item: Reading
+    #    link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      A thorough professional with over 13+ years of experience in system admin,system automation,team building & interpersonal skills. 
+      Loves to hack with servers to build and maintain critical production infrastructure and applications
 
-      Second paragraph if required.
+    
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelor of Engineering Computer Science
+      university: North Maharashtra University
+      time: 2000 - 2004
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+          - First class with distinction(65.71%)
+          
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Higher Secondary Certificate (HSC)
+      university: Nashik
+      time: 1998 - 2000
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+          - First class (71.83%)
 
-          - Bullet point
-          - Bullet point
+    - degree: Secondary Secondary Certificate (HSC)
+      university: Nashik
+      time: 1996 - 1998
+      details: |
+          - First class (68.53%)
+          
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Principal Cloud Architect
+      time: Sep-2017 - Present
+      company: Rean Cloud , Pune 
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -100,31 +85,34 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Senior Manager - Technical Operations
+      time: Oct-2012 - Sep-2017
+      company: Mode Media Corporation
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Managing team of system engineers to maintain the large scale infrastructure and applications.
+          - Automated bare metal deployment and LXC container virtualization using Cobbler and configuration management tool (Ansible)
+          - Migrated the ADSERVING platform to AWS from co location and converted that in micro service architecture using Docker.
+          - Implemented the distributed monitoring for Infrastructure to monitor 3500 servers and 50K services using Nagios/Check_Mk with custom plugins.
+          - Implemented and customized DevOps tools for automation e.g. GitLab, Yum Repos, DNS , Inventory, Slack , Haproxy, Hadoop etc.
+          - Migrated the cron from multiple servers to Centralized setup using Jenkins. 
+          - Created centralized dashboard for high level view using Dashing.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Team Lead - Technical Support
+      time: Apr-2007 - Oct-2012
+      company: Cybage Software Private Limited
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Consulting and Handling Operations for multiple Remote Infrastrcuture Management teams.
+          - Completed Transition for four RIMS projects; Rubicon Operations, Proviner, KN-Dimestore and DivXTV.
+          - Installed Remote Infrastructure Tools for these Projects e.g. Nagios, Bigbrother, Cacti, Munin, RRDtool, Bugzila, Graphite, Grafana etc.
+          - Managed multiple teams work allocation, roster and leaves.
+          - Assisted Delivery Manager in Business development tasks, proposals and capability presentation.
 
-          - Bullet point
-          - Bullet point
+    - role: Technical Support Engineer
+      time: Feb-2005 - Oct-2005
+      company: DX Technologies Pvt. Ltd.
+      details: |
+        Remote managing servers and applications
+          - Installation, maintenance and sipport of Linux Servers and applications ( DXContent Factory, DX-Reader etc )
 
 projects:
     title: Projects
@@ -155,16 +143,14 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Certifications
+    #intro: |
+    #  You can list your Certifications in this section.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: AWS Solutions Architect – Associate
+        authors: Validation Number LQQ1QF011EBEQN96
+        conference: 27-Jun-2018 &mdash; 27-Jun-2020
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
