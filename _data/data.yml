@@ -52,21 +52,21 @@ education:
     - degree: Bachelor of Engineering Computer Science
       university: North Maharashtra University
       time: 2000 - 2004
-      details: |
-          - First class with distinction(65.71%)
+      class: First class with distinction(65.71%)
+      
           
 
     - degree: Higher Secondary Certificate (HSC)
       university: Nashik
       time: 1998 - 2000
-      details: |
-          - First class (71.83%)
+      class: First class (71.83%)
+      
 
     - degree: Secondary Secondary Certificate (HSC)
       university: Nashik
       time: 1996 - 1998
-      details: |
-          - First class (68.53%)
+      class: First class (68.53%)
+        
           
 
 experiences:
