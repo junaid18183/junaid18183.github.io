@@ -9,9 +9,11 @@
   <ul class="list-unstyled interests-list">
     {%for skill in skills %}
     <li>
-      {{ skill.name }}
-      <span class="lang-desc">({{ skill.detail }})</span>
-    </li>
+    <div class="item">
+      <h4 class="degree">{{ skill.name }}</h4>
+      <div class="time">{{ skill.detail }}</div>
+      </div><!--//item-->
+      </li>
     {% endfor %}
   </ul>
 

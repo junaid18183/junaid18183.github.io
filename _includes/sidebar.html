@@ -19,15 +19,19 @@
 
   {% include contact.html %}
 
+  {% if sidebar.skills %}
+    {% include skills.html %}
+  {% endif %}
+
   {% if sidebar.education %}
     {% include education.html %}
   {% endif %}
 
+  
+
   {% include language.html %}
   {% include interests.html %}
-  {% if sidebar.skills %}
-    {% include skills.html %}
-  {% endif %}
+  
 
   {% if sidebar.about %}
     {% include about.html %}

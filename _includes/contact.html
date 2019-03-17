@@ -13,6 +13,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.city %}
+    <li class="phone"><i class="fas fa-map-marker-alt"></i>
+      <a href="{{ sidebar.city }}">{{ sidebar.city }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
