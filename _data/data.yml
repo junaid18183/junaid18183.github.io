@@ -3,198 +3,182 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    skills: True # set to False if you want skills in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Juned Memon
+    tagline:  System Engineer | Cloud Architect | Devops 
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: j**********@gmail.com
+    phone: +91 ***-***-****
+    city: Pune
+    website: www.ijuned.com #do not add http://
+    linkedin: junaid18183
+    github: junaid18183
+    #gitlab: 
+    #bitbucket:
+    twitter: '@junaid18183'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
+      - idiom: Hindi
+        level: Native
       - idiom: English
+        level: Professional
+      - idiom: Marathi
         level: Native
 
-      - idiom: French
-        level: Professional
+    skills:
+      - name: People and Process mangement 
+        detail: Hiring, Leading and Mentoring team.
+      - name: Linux Adminstration
+        detail: System Administration and Monitoring
+      - name: Public Cloud 
+        detail: Amazon Web Services
+      - name: Configuration Management Tool
+        detail: Ansible,Chef,Puppet
+      - name: Containers and Schedulers
+        detail: LXC,Docker, Swarm, Kubernetes 
+      - name: Sytem Monitoring
+        detail: Nagios, Check_Mk, NewRelic,Graphite, Grafana
+      - name:  Automation and scripting
+        detail: Bash,Python,Golang, little of perl.
+      - name: Infrastrcure as a code 
+        detail: Terraform, AWS cloud formation
 
-      - idiom: Spanish
-        level: Professional
 
-    interests:
-      - item: Climbing
-        link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    #interests:
+    #  - item: Reading
+    #    link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      A thorough professional with over 13+ years of experience in system admin,system automation,devops,team building & interpersonal skills. 
+      
+      Loves to hack with servers to build and maintain critical production infrastructure and applications.
 
-      Second paragraph if required.
+
+    
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: Bachelor of Engineering Computer Science
+      university: North Maharashtra University
+      time: 2000 - 2004
+      class: First class with distinction(65.71%)
+      
+          
 
-          - Bullet point
-          - Bullet point
+    - degree: Higher Secondary Certificate (HSC)
+      university: Nashik
+      time: 1998 - 2000
+      class: First class (71.83%)
+      
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: Secondary Secondary Certificate (HSC)
+      university: Nashik
+      time: 1996 - 1998
+      class: First class (68.53%)
+        
+          
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Principal Cloud Architect
+      time: Sep-2017 - Present
+      company: Hitachi Vantara/ReanCloud  Pune 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Lead an international DevOps team to build the automation for accelerator products of the company. 
+        Utilized standard DevOps tools including Chef, CloudFormation, Terraform, git, Jenkins, Docker
 
-          - Bullet point
-          - Bullet point
+          - Assisted with STIGing, scanning and remediation to meet client standards.
+          - Part of delivery project for online portal defining the deployment architecture for microservices.
+          - Part of in-house product architecture team to build the company's accelerator products.
+          - Part of delivery project for the big ISV client handling their automation around AWS and container deployment on kubernetes.
+          - Part of Managed Services team of REAN, Leading the team L1/L2 resources. And help to setup the processes and mentor them for cloud operations.
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Senior Manager - Technical Operations
+      time: Oct-2012 - Sep-2017
+      company: Mode Media Corporation
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Managing team of system engineers to maintain the large scale infrastructure and applications.
+          - Automated bare metal deployment and LXC container virtualization using Cobbler and configuration management tool (Ansible)
+          - Migrated the ADSERVING platform to AWS from co location and converted that in micro service architecture using Docker.
+          - Implemented the distributed monitoring for Infrastructure to monitor 3500 servers and 50K services using Nagios/Check_Mk with custom plugins.
+          - Implemented and customized DevOps tools for automation e.g. GitLab, Yum Repos, DNS , Inventory, Slack , Haproxy, Hadoop etc.
+          - Migrated the cron from multiple servers to Centralized setup using Jenkins. 
+          - Created centralized dashboard for high level view using Dashing.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Team Lead - Technical Support
+      time: Apr-2007 - Oct-2012
+      company: Cybage Software Private Limited
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Consulting and Handling Operations for multiple Remote Infrastrcuture Management teams.
+          - Completed Transition for four RIMS projects; Rubicon Operations, Proviner, KN-Dimestore and DivXTV.
+          - Installed Remote Infrastructure Tools for these Projects e.g. Nagios, Bigbrother, Cacti, Munin, RRDtool, Bugzila, Graphite, Grafana etc.
+          - Managed multiple teams work allocation, roster and leaves.
+          - Assisted Delivery Manager in Business development tasks, proposals and capability presentation.
 
-          - Bullet point
-          - Bullet point
+    - role: Technical Support Engineer
+      time: Feb-2005 - Oct-2005
+      company: DX Technologies Pvt. Ltd.
+      details: |
+        Remote managing servers and applications
+          - Installation, maintenance and sipport of Linux Servers and applications ( DXContent Factory, DX-Reader etc )
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are few of my  open source projects.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: terraform-provider-checkmk
+        link: "https://github.com/junaid18183/terraform-provider-checkmk"
+        tagline: "Terraform Provider for Check_MK "
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: HALB
+        link: "https://github.com/junaid18183/HALB"
+        tagline: "Wrapper to manage the multiple Haproxy configuration on same machine"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: zonemanage
+        link: "https://github.com/junaid18183/zonemanage"
+        tagline: "Django App to Manage Bind DNS "
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: sojourner
+        link: "https://github.com/junaid18183/Sojourner"
+        tagline: "Home of my Ansible/Check_Mk based Inventory toolkit"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: nagios-plugins
+        link: "https://github.com/junaid18183/nagios-plugins"
+        tagline: "Few custom Nagios Plugins written for different requirements."
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Certifications
+    #intro: |
+    #  You can list your Certifications in this section.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: AWS Solutions Architect – Associate
+        authors: Validation Number VQMR2GX2BJ4E1J36
+        conference: 27-Jun-2018 &mdash; 27-Jun-2020
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: AWS Sysops Administrator – Associate
+        authors: Validation Number LQQ1QF011EBEQN96
+        conference: 11-July-2018 &mdash; 11-July-2020
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Certified Kubernetes Administrator (CKA)
+        authors: Certificate ID Number CKA-1800-0863-0100
+        conference: 16-October-2018
 
-skills:
-    title: Skills &amp; Proficiency
+      - title: ITIL V3 Foundation
+        authors: Certificate Number 4339118 1006390
+        conference: October-2011
 
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
