@@ -94,14 +94,16 @@ experiences:
       time: Sep-2016 - Present
       company: Hitachi Vantara/ReanCloud  Pune 
       details: |
-        Lead an international DevOps team to build the automation for accelerator products of the company. 
-        Utilized standard DevOps tools including Chef, CloudFormation, Terraform, git, Jenkins, Docker
+        Lead an international DevSecOps team to build the automation for accelerator products of the company. 
+        Utilized standard DevOps tools including Kubernetes, Docker, Chef, CloudFormation, Terraform, git, Jenkins, Docker, 
 
-          - Assisted with STIGing, scanning and remediation to meet client standards.
-          - Part of delivery project for online portal defining the deployment architecture for microservices.
-          - Part of in-house product architecture team to build the company's accelerator products.
-          - Part of delivery project for the big ISV client handling their automation around AWS and container deployment on kubernetes.
-          - Part of Managed Services team of REAN, Leading the team L1/L2 resources. And help to setup the processes and mentor them for cloud operations.
+          -  Part of in-house product architecture team to build the company's accelerator products. 
+          -  Migrated the cloud accelerator platform to Kubernetes with all design and architecture
+          -  Assisted with STIGing, scanning and remediation for AMI/Docker container to meet client standards.
+          -  Designed the process of Installation and configuration of cloud accelerator platform in AirGap environments
+          -  Part of delivery project for online portal defining the deployment architecture for microservices.
+          -  Part of delivery project for the big ISV client handling their automation around AWS and container deployment on kubernetes.
+          -  Part of Managed Services team of REAN, Leading the team L1/L2 resources. And help to setup the processes and mentor them for cloud operations.
 
     - role: Senior Manager - Technical Operations
       time: Oct-2012 - Sep-2016
@@ -164,21 +166,30 @@ publications:
     #  You can list your Certifications in this section.
 
     papers:
-      - title: AWS Solutions Architect – Associate
-        authors: Validation Number VQMR2GX2BJ4E1J36
-        conference: 27-Jun-2018 &mdash; 27-Jun-2020
+      - title: Certified Kubernetes Developer (CKAD)
+        authors: Certificate ID Number LF-rvq8srl15p
+        conference: 24-November-2020 &mdash; 25-November-2023
+        link: https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url
+
+      - title: Certified Kubernetes Administrator (CKA)
+        authors: Certificate ID Number CKA-1800-0863-0100
+        conference: 16-October-2018 &mdash; 16-October-2021
+        link: https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url
 
       - title: AWS Sysops Administrator – Associate
         authors: Validation Number LQQ1QF011EBEQN96
         conference: 11-July-2018 &mdash; 11-July-2020
+        link: https://www.youracclaim.com/badges/9a441b51-6587-4135-a664-0e504c73d317/public_url
 
-      - title: Certified Kubernetes Administrator (CKA)
-        authors: Certificate ID Number CKA-1800-0863-0100
-        conference: 16-October-2018
+      - title: AWS Solutions Architect – Associate
+        authors: Validation Number VQMR2GX2BJ4E1J36
+        conference: 27-Jun-2018 &mdash; 27-Jun-2020
+        link: https://www.youracclaim.com/badges/988261f3-7e65-4700-ad70-1be5fd3c854c/public_url
 
       - title: ITIL V3 Foundation
         authors: Certificate Number 4339118 1006390
-        conference: October-2011
+        conference: October-2011 &mdash; Never Expires
+        link: juned-memon-ITILV3-certificate.pdf
 
 #footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
