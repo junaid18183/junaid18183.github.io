@@ -3,3 +3,6 @@ _site
 .DS_Store
 _vendor
 _data/_site/
+.bundle/
+.ruby-version
+vendor/

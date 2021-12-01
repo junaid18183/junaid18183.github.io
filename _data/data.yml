@@ -40,7 +40,7 @@ sidebar:
       - name: Linux Adminstration
         detail: System Administration and Monitoring
       - name: Public Cloud 
-        detail: Amazon Web Services
+        detail: Amazon Web Services, Azure , GCP
       - name: Configuration Management Tool
         detail: Ansible,Chef,Puppet
       - name: Containers and Schedulers
@@ -51,6 +51,10 @@ sidebar:
         detail: Bash,Python,Golang, little of perl.
       - name: Infrastrcure as a code 
         detail: Terraform, AWS cloud formation
+      - name: GitOps
+        detail: fluxCD , ArgoCD
+      - name: CICD
+        detail: jenkins,gitlab ci, github actions
 
 
 
@@ -90,8 +94,18 @@ education:
           
 
 experiences:
+    - role: DevSecOps Lead
+      time: Sep-2021 - Present
+      company: VivSoft/AIML2
+      details: |
+        Part of the VivSoft Platformn Team to architect build and stabilize the platform for solutions deployment on Kubernetes.
+          - Added the opinionated installation of DoD's Platfform1 BigBang Deployment in the Enbuild Platform.
+          - Added the  opinionated installation the kubeflow in the Enbuild Platform.
+          - Managing CI CD for the Enbuild installation using GitOps. 
+          - Creating and managing the hardened AMI and docker images for installation.
+
     - role: Principal Cloud Architect
-      time: Sep-2016 - Present
+      time: Sep-2016 - Sep-2021
       company: Hitachi Vantara/ReanCloud  Pune 
       details: |
         Lead an international DevSecOps team to build the automation for accelerator products of the company. 
@@ -100,7 +114,7 @@ experiences:
           -  Part of in-house product architecture team to build the company's accelerator products. 
           -  Migrated the cloud accelerator platform to Kubernetes with all design and architecture
           -  Assisted with STIGing, scanning and remediation for AMI/Docker container to meet client standards.
-          -  Designed the process of Installation and configuration of cloud accelerator platform in AirGap environments
+          -  Designed the process of Installation and configuration of cloud accelerator platform in AirGap environments.
           -  Part of delivery project for online portal defining the deployment architecture for microservices.
           -  Part of delivery project for the big ISV client handling their automation around AWS and container deployment on kubernetes.
           -  Part of Managed Services team of REAN, Leading the team L1/L2 resources. And help to setup the processes and mentor them for cloud operations.
