@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.4.1)
+    activesupport (6.0.3.7)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -26,26 +26,16 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    faraday (1.7.0)
-      faraday-em_http (~> 1.0)
-      faraday-em_synchrony (~> 1.0)
+    faraday (1.4.1)
       faraday-excon (~> 1.1)
-      faraday-httpclient (~> 1.0.1)
       faraday-net_http (~> 1.0)
       faraday-net_http_persistent (~> 1.1)
-      faraday-patron (~> 1.0)
-      faraday-rack (~> 1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords (>= 0.0.4)
-    faraday-em_http (1.0.0)
-    faraday-em_synchrony (1.0.0)
     faraday-excon (1.1.0)
-    faraday-httpclient (1.0.1)
     faraday-net_http (1.0.1)
-    faraday-net_http_persistent (1.2.0)
-    faraday-patron (1.0.0)
-    faraday-rack (1.0.0)
-    ffi (1.15.3)
+    faraday-net_http_persistent (1.1.0)
+    ffi (1.15.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (219)
@@ -219,15 +209,24 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+<<<<<<< HEAD
     mini_portile2 (2.6.1)
+=======
+    mini_portile2 (2.5.1)
+>>>>>>> 2590a17ec788f145b309a3d7d5e8baef543dc84d
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.4)
     multipart-post (2.1.1)
+<<<<<<< HEAD
     nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
+=======
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+>>>>>>> 2590a17ec788f145b309a3d7d5e8baef543dc84d
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -276,4 +275,8 @@ DEPENDENCIES
   github-pages (>= 214)
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.1.4
+=======
+   1.17.3
+>>>>>>> 2590a17ec788f145b309a3d7d5e8baef543dc84d
