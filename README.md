@@ -20,7 +20,7 @@ A passionate DevOps and AI/ML systems engineer with 13+ years of experience in i
 
 ## 🛠 Projects & Open Source Contributions
 
-Visit the [projects](projects/README.md) section for details.
+Visit the [projects](https://github.com/junaid18183?tab=repositories&q=&type=public&language=&sort=) section for details.
 
 - [terraform-provider-checkmk](https://github.com/junaid18183/terraform-provider-checkmk)
 - [HALB](https://github.com/junaid18183/HALB) - HAProxy management wrapper
@@ -42,7 +42,7 @@ Visit the [projects](projects/README.md) section for details.
 - ✅ CKAD – [View Badge](https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url)
 - ✅ CKA – [View Badge](https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url)
 - ✅ AWS Solutions Architect Associate – [View Badge](https://www.youracclaim.com/badges/988261f3-7e65-4700-ad70-1be5fd3c854c/public_url)
-- ✅ ITIL V3 Foundation
+- ✅ ![ITIL V3 Foundation](https://img.shields.io/badge/ITIL-V3_Foundation-blue)
 
 ---
 
@@ -52,6 +52,9 @@ Visit the [projects](projects/README.md) section for details.
 - 💼 [LinkedIn](https://linkedin.com/in/junaid18183)
 - 🐦 [Twitter](https://twitter.com/junaid18183)
 - 🧑‍💻 [GitHub](https://github.com/junaid18183)
+
+## 
+![Github Stats](https://github-readme-stats.vercel.app/api?username=junaid18183&count_private=true&show_icons=true&include_all_commits=true)
 
 ---
 > ✨ This profile is built using YAML + Markdown for clean, version-controlled personal branding.
