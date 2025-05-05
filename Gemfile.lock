@@ -258,7 +258,7 @@ PLATFORMS
   universal-darwin-24
 
 DEPENDENCIES
-  github-pages (>= 229)
+  github-pages (>= 231)
 
 BUNDLED WITH
    2.2.26
