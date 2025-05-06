@@ -1,0 +1,18 @@
+{
+  "name": "my-resume",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=22.8.0"
+  },
+  "dependencies": {
+    "jsonresume-theme-even": "^0.23.0",
+    "jsonresume-theme-modern": "^0.0.18",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "puppeteer": "^24.8.0",
+    "resumed": "^5.0.0"
+  },
+  "scripts": {
+    "export": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-modern"
+  }
+}

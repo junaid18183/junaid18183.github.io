@@ -252,20 +252,20 @@
       "startDate": "2021-09-13",
       "summary": "Led the architecture and development of ENBUILD integrating Platform One BigBang",
       "highlights": [
-          "Designed and implemented ENBUILD as an internal developer platform, combining GitOps practices, Kubernetes management, and Terraform-based infrastructure automation.",
-          "Integrated LangChain and OpenAI APIs into the platform to support basic LLM-based use cases like code generation and chatbot assistance for platform users.",
-          "Contributed to the creation of the Model Context Protocol (MCP) to improve integration between AI outputs and monitoring tools like Grafana and Prometheus.",
-          "Configured and deployed Big Bang (Platform One) Kubernetes modules using Iron Bank containers, focusing on compliance and security baselines.",
-          "Built pipelines for secure MLOps environments using Kubeflow, addressing basic data ingestion and model deployment workflows in air-gapped scenarios.",
-          "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
-          "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards.",
-          "Developed automated testing frameworks for CI/CD pipelines, enhancing deployment reliability and reducing integration issues."
-        ],
+        "Designed and implemented ENBUILD as an internal developer platform, combining GitOps practices, Kubernetes management, and Terraform-based infrastructure automation.",
+        "Integrated LangChain and OpenAI APIs into the platform to support basic LLM-based use cases like code generation and chatbot assistance for platform users.",
+        "Contributed to the creation of the Model Context Protocol (MCP) to improve integration between AI outputs and monitoring tools like Grafana and Prometheus.",
+        "Configured and deployed Big Bang (Platform One) Kubernetes modules using Iron Bank containers, focusing on compliance and security baselines.",
+        "Built pipelines for secure MLOps environments using Kubeflow, addressing basic data ingestion and model deployment workflows in air-gapped scenarios.",
+        "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
+        "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards.",
+        "Developed automated testing frameworks for CI/CD pipelines, enhancing deployment reliability and reducing integration issues."
+      ],
       "old_details": [
         "Part of the VivSoft Platformn Team to architect build and stabilize the platform for solutions deployment on Kubernetes.",
         "Added the opinionated installation of DoD's Platfform1 BigBang Deployment in the Enbuild Platform.",
         "Added the opinionated installation of the kubeflow in the Enbuild Platform.",
-        "Managing CI CD for the Enbuild installation using GitOps.", 
+        "Managing CI CD for the Enbuild installation using GitOps.",
         "Creating and managing the hardened AMI and docker images for installation."
       ]
     },
@@ -286,7 +286,7 @@
         "Led REAN Cloud's Managed Services team, mentoring engineers and standardizing cloud operations.",
         "Architected multi-region, cost-optimized cloud infrastructure with centralized secrets management.",
         "Migrated legacy workloads to containerized microservices, improving scalability and operational efficiency."
-      ],      
+      ],
       "old_details": [
         "Lead an international DevSecOps team to build the automation for accelerator products of the company.Utilized standard DevOps tools including Kubernetes, Docker, Chef, CloudFormation, Terraform, git, Jenkins, Docker",
         "-  Part of in-house product architecture team to build the company's accelerator products.",
@@ -323,11 +323,11 @@
         "- Migrated the cron from multiple servers to Centralized setup using Jenkins.",
         "- Created centralized dashboard for high level view using Dashing."
       ]
-    },      
+    },
     {
       "name": "Cybage Software",
       "position": "Team Lead - Technical Operations",
-      "url" : "https://www.cybage.com/",
+      "url": "https://www.cybage.com/",
       "startDate": "2007-04-05",
       "endDate": "2012-10-12",
       "summary": "Led global infrastructure operations and delivery transitions for clients in finance, media, and e-commerce sectors. Managed cross-functional technical teams, implemented robust monitoring systems, and played a strategic role in business development initiatives.",
@@ -345,7 +345,7 @@
         "- Managed multiple teams work allocation, roster and leaves.",
         "- Assisted Delivery Manager in Business development tasks, proposals and capability presentation."
       ]
-    },      
+    },
     {
       "name": "DX Technologies Pvt. Ltd.",
       "position": "Technical Support Engineer",
