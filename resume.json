@@ -2,11 +2,13 @@
     "basics": {
       "name": "Juned Memon",
       "label": "DevSecOps | Kubernetes Platform Engineer | LLM Integrator | AI/ML Systems | System Engineer | Cloud Architect",
-      "image": "https://github.com/junaid18183/junaid18183/blob/gh-pages/assets/images/profile.png",
+      "image": "profile.png",
       "email": "junaid18183@gmail.com",
-      "phone": "+91-9823841436",
+      "phone": "+91-98238-41436",
       "location": {
-        "city": "Pune"
+        "city": "Pune",
+        "region": "Maharashtra",
+        "countryCode": "IN"
       },
       "url": "https://junaid18183.github.io/",
       "profiles": [
@@ -31,21 +33,20 @@
           "url": "https://twitter.com/junaid18183"
         }
       ],
-      "summary": "Experienced DevSecOps Engineer and Cloud Architect with 18+ years in system administration, automation, and Kubernetes platform engineering. Skilled in designing secure cloud-native infrastructures using GitOps, DevSecOps practices, and CICD. Passionate about building and managing AI-integrated internal Developer Platforms. Familiar with Golang/Python for backend development and automation, with experience in understanding existing code and building new features from scratch, including developing Terraform providers, Kubernetes operators, and REST APIs."
+      "summary": "Versatile DevSecOps and Platform Engineering expert with 18+ years of hands-on experience designing scalable cloud-native solutions, Kubernetes-first architectures, and AI-integrated developer platforms. Adept at leading cross-functional teams and transforming traditional IT into high-performing automated infrastructures."
     },
     "work": [
       {
         "name": "VivSoft / AIML2",
         "position": "DevSecOps Lead",
         "startDate": "2021-09",
-        "summary": "Architect and Lead developer for ENBUILD platform.",
+        "summary": "Architected and spearheaded the development of ENBUILD—a cutting-edge Internal Developer Platform (IDP) combining AI/ML tooling, LLM-integrated automation, and GitOps-driven infrastructure as code delivery for US Federal clients and innovation programs.",
         "highlights": [
-          "DevSecOps platform integrating AI microservices, LLM-powered chatbots, and Terraform code generators using LangChain",
-          "Architected Model Context Protocol (MCP) to integrate AI insights with observability tools like Grafana",
-          "Integrated Kubernetes-first architecture using BigBang and Kubeflow",
-          "Developed AI microservices including LLM-powered chatbot and Terraform code generator",
-          "Managed secure AMI/docker image pipelines",
-          "Built GitOps-driven CI/CD with fluxCD and ArgoCD"
+          "Developed a multi-tenant DevSecOps platform integrating LangChain-based LLM agents with Terraform code generation.",
+          "Devised and implemented Model Context Protocol (MCP) to bridge AI-driven insights with observability dashboards (Grafana, Kibana).",
+          "Led Kubernetes-native architecture deployment using BigBang, Istio, Keycloak, Kubeflow, and OPA Gatekeeper.",
+          "Built secure AMI and container pipelines aligned to DoD STIG compliance.",
+          "Automated CI/CD workflows using GitHub Actions, GitLab CI, fluxCD, and ArgoCD."
         ]
       },
       {
@@ -53,12 +54,13 @@
         "position": "Principal Cloud Architect",
         "startDate": "2016-09",
         "endDate": "2021-09",
-        "summary": "Led DevSecOps for cloud accelerator platforms.",
+        "summary": "Directed cloud platform modernization and DevSecOps transformations for Fortune 500 clients and federal agencies, optimizing cost, scalability, and compliance.",
         "highlights": [
-          "Migrated platform to Kubernetes with custom Terraform & STIG hardened AMIs",
-          "Implemented AirGap installations and compliance automation",
-          "Delivered microservice architecture for ISVs and defense clients",
-          "Managed multi-region deployments and cloud cost optimizations"
+          "Redesigned Rean Accelerator platform with Kubernetes (EKS), STIG-hardened AMIs, and IaC pipelines.",
+          "Implemented Air-Gapped K8s environments with secure GitOps pipelines and automated remediation."
+          ,
+          "Managed microservice deployment strategies, centralized secret stores (Vault, SSM), and multi-region failover designs.",
+          "Delivered reusable CI/CD frameworks integrated with SonarQube, Snyk, Anchore, and HashiCorp tooling."
         ]
       },
       {
@@ -66,11 +68,11 @@
         "position": "Senior Manager - Technical Operations",
         "startDate": "2012-10",
         "endDate": "2016-09",
-        "summary": "Led infrastructure and systems engineering.",
+        "summary": "Led global technical operations for Mode Media, building scalable cloud-native systems and automating legacy infrastructure into resilient Dockerized stacks.",
         "highlights": [
-          "Migrated legacy services to AWS and Dockerized microservices",
-          "Developed automated monitoring stack using Check_MK and Grafana",
-          "Centralized cron and configuration pipelines using Jenkins and Dashing dashboards"
+          "Dockerized core publishing and analytics microservices with fully automated Jenkins pipelines.",
+          "Migrated on-prem workloads to AWS, improving reliability and operational visibility with ELK, Grafana, and Check_MK.",
+          "Developed Dashing dashboards for infra health and predictive failure analysis across 100+ nodes."
         ]
       },
       {
@@ -78,10 +80,10 @@
         "position": "Team Lead - Technical Support",
         "startDate": "2007-04",
         "endDate": "2012-10",
-        "summary": "Managed remote infra teams and tools.",
+        "summary": "Managed enterprise-scale remote infrastructure support for global clients, leading multi-member teams and building scalable monitoring and automation systems.",
         "highlights": [
-          "Completed transitions for multiple enterprise monitoring setups",
-          "Installed and maintained tooling stack including Nagios, Graphite, RRDtool"
+          "Led 24x7 monitoring and automation efforts using Nagios, Graphite, and RRDtool.",
+          "Migrated enterprise ITSM and NOC functions to scalable support workflows."
         ]
       },
       {
@@ -89,197 +91,88 @@
         "position": "Technical Support Engineer",
         "startDate": "2005-02",
         "endDate": "2005-10",
-        "summary": "Maintained Linux servers and application deployments remotely."
-      }
-    ],
-    "education": [
-      {
-        "institution": "North Maharashtra University",
-        "area": "Computer Science",
-        "studyType": "Bachelor of Engineering",
-        "startDate": "2000",
-        "endDate": "2004",
-        "score": "65.71% (First class with distinction)"
-      },
-      {
-        "institution": "Nashik",
-        "studyType": "Higher Secondary Certificate (HSC)",
-        "startDate": "1998",
-        "endDate": "2000",
-        "score": "71.83% (First class)"
-      },
-      {
-        "institution": "Nashik",
-        "studyType": "Secondary School Certificate (SSC)",
-        "startDate": "1996",
-        "endDate": "1998",
-        "score": "68.53% (First class)"
+        "summary": "Provided L1-L2 support for Linux server environments and application monitoring stacks."
       }
     ],
     "skills": [
       {
-        "name": "People and Process management",
+        "name": "Cloud & Platform Engineering",
         "keywords": [
-          "Hiring",
-          "Leading",
-          "Mentoring team"
+          "AWS (EKS, EC2, Lambda, RDS, S3)",
+          "Azure AKS",
+          "Google Cloud (GKE, Compute Engine)",
+          "Cloud Architecture",
+          "STIG Compliance",
+          "Air-Gap Environments"
         ]
       },
       {
-        "name": "Linux Administration and System Engineering",
+        "name": "Kubernetes & Container Orchestration",
         "keywords": [
-          "System Administration",
-          "Monitoring"
+          "Kubernetes (EKS, AKS, RKE2)",
+          "Helm",
+          "Istio",
+          "OPA Gatekeeper",
+          "Service Mesh",
+          "Namespace RBAC",
+          "Secrets Management"
         ]
       },
       {
-        "name": "Public Cloud",
+        "name": "DevSecOps & Automation",
         "keywords": [
-          "AWS",
-          "Azure",
-          "GCP"
+          "GitOps (fluxCD, ArgoCD)",
+          "CI/CD (GitHub Actions, GitLab CI, Jenkins)",
+          "Terraform & Pulumi",
+          "Ansible, Chef, Puppet",
+          "Vault, SOPS",
+          "SonarQube, Snyk, Trivy, Anchore"
         ]
       },
       {
-        "name": "Configuration Management Tool",
+        "name": "Observability & Monitoring",
         "keywords": [
-          "Ansible",
-          "Chef",
-          "Puppet"
-        ]
-      },
-      {
-        "name": "Containers and Schedulers",
-        "keywords": [
-          "LXC",
-          "Docker",
-          "Swarm",
-          "Kubernetes"
-        ]
-      },
-      {
-        "name": "System Monitoring",
-        "keywords": [
-          "Nagios",
-          "Check_Mk",
-          "NewRelic",
-          "Graphite",
-          "Grafana",
           "Prometheus",
-          "ELK"
+          "Grafana",
+          "ELK Stack",
+          "Check_MK",
+          "Alertmanager",
+          "Dashboards",
+          "Log Aggregation"
         ]
       },
       {
-        "name": "Automation and scripting",
-        "keywords": [
-          "Bash",
-          "Python",
-          "Golang",
-          "Perl (basic)"
-        ]
-      },
-      {
-        "name": "Infrastructure as Code",
-        "keywords": [
-          "Terraform",
-          "AWS CloudFormation"
-        ]
-      },
-      {
-        "name": "GitOps",
-        "keywords": [
-          "fluxCD",
-          "ArgoCD"
-        ]
-      },
-      {
-        "name": "CICD",
-        "keywords": [
-          "Jenkins",
-          "GitLab CI",
-          "GitHub Actions"
-        ]
-      },
-      {
-        "name": "LLM Tools and Frameworks",
+        "name": "AI/ML & LLM Integration",
         "keywords": [
           "LangChain",
-          "HuggingFace",
-          "OpenAI APIs"
+          "OpenAI APIs",
+          "HuggingFace Transformers",
+          "Vector DBs (FAISS, Chroma)",
+          "LLM Chat Agents",
+          "Prompt Engineering",
+          "Model Context Protocol"
         ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "Hindi",
-        "fluency": "Native"
       },
       {
-        "language": "English",
-        "fluency": "Professional"
+        "name": "Programming & Scripting",
+        "keywords": [
+          "Python",
+          "Golang",
+          "Bash",
+          "Perl",
+          "Django",
+          "FastAPI"
+        ]
       },
       {
-        "language": "Marathi",
-        "fluency": "Native"
-      }
-    ],
-    "projects": [
-      {
-        "name": "ENBUILD",
-        "description": "Internal DevSecOps platform with AI, LLM, Kubernetes, GitOps, BigBang, and MCP",
-        "url": "https://enbuild-docs.vivplatform.io"
-      },
-      {
-        "name": "terraform-provider-checkmk",
-        "description": "Terraform Provider for Check_MK",
-        "url": "https://github.com/junaid18183/terraform-provider-checkmk"
-      },
-      {
-        "name": "HALB",
-        "description": "HAProxy config wrapper",
-        "url": "https://github.com/junaid18183/HALB"
-      },
-      {
-        "name": "zonemanage",
-        "description": "Django App for managing Bind DNS",
-        "url": "https://github.com/junaid18183/zonemanage"
-      },
-      {
-        "name": "Sojourner",
-        "description": "Ansible and Check_MK-based inventory toolkit",
-        "url": "https://github.com/junaid18183/Sojourner"
-      }
-    ],
-    "certificates": [
-      {
-        "name": "Certified Kubernetes Developer (CKAD)",
-        "date": "2020-11-24",
-        "issuer": "Linux Foundation",
-        "url": "https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url"
-      },
-      {
-        "name": "Certified Kubernetes Administrator (CKA)",
-        "date": "2018-10-16",
-        "issuer": "Linux Foundation",
-        "url": "https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url"
-      },
-      {
-        "name": "AWS SysOps Administrator – Associate",
-        "date": "2018-07-11",
-        "issuer": "Amazon Web Services",
-        "url": "https://www.youracclaim.com/badges/9a441b51-6587-4135-a664-0e504c73d317/public_url"
-      },
-      {
-        "name": "AWS Solutions Architect – Associate",
-        "date": "2018-06-27",
-        "issuer": "Amazon Web Services",
-        "url": "https://www.youracclaim.com/badges/988261f3-7e65-4700-ad70-1be5fd3c854c/public_url"
-      },
-      {
-        "name": "ITIL V3 Foundation",
-        "date": "2011-10",
-        "issuer": "EXIM",
-        "url": "https://github.com/junaid18183/junaid18183/blob/4f1c537096d4064de16436d3da58f0794ad99e68/assets/juned-memon-ITILV3-certificate.pdf"
+        "name": "Infrastructure & Networking",
+        "keywords": [
+          "Linux (Ubuntu, CentOS, RHEL)",
+          "HAProxy",
+          "DNS & Bind",
+          "Networking (VPC, VPN, IPtables)"
+        ]
       }
     ]
   }
+  
