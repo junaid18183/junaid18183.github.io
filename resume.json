@@ -47,14 +47,16 @@
     },
     {
       "institution": "Nashik",
-      "studyType": "Higher Secondary Certificate (HSC)",
+      "area": "Higher Secondary Certificate",
+      "studyType": "HSC",
       "startDate": "1998",
       "endDate": "2000",
       "score": "71.83% (First class)"
     },
     {
       "institution": "Nashik",
-      "studyType": "Secondary School Certificate (SSC)",
+      "area": "Secondary School Certificate",
+      "studyType": "SSC",
       "startDate": "1996",
       "endDate": "1998",
       "score": "68.53% (First class)"
