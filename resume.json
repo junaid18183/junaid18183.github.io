@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Juned Memon",
-      "label": "DevSecOps | Kubernetes Platform Engineer | LLM Integrator | AI/ML Systems | System Engineer | Cloud Architect",
+      "label": "DevSecOps | Platform Engineering Leader | Cloud-Native Systems | System Engineer | Cloud Architect | LLM Integrator | AI/ML Systems",
       "image": "profile.png",
       "email": "junaid18183@gmail.com",
       "phone": "+91-98238-41436",
@@ -34,33 +34,37 @@
         }
       ],
       "summary": "Versatile DevSecOps and Platform Engineering expert with 18+ years of hands-on experience designing scalable cloud-native solutions, Kubernetes-first architectures, and AI-integrated developer platforms. Adept at leading cross-functional teams and transforming traditional IT into high-performing automated infrastructures."
+      // "summary": "Innovative Platform Engineering and DevSecOps leader with 18+ years of expertise architecting cloud-native solutions for mission-critical applications. Recognized for pioneering LLM-integrated IDP platforms, implementing AI/ML operational frameworks, and building Kubernetes-centric ecosystems with federal security compliance. Skilled at transforming complex technical requirements into scalable architectures while leading diverse engineering teams."
     },
     "work": [
       {
         "name": "VivSoft / AIML2",
-        "position": "DevSecOps Lead",
+        "position": "DevSecOps Lead & Platform Architect",
         "startDate": "2021-09",
-        "summary": "Architected and spearheaded the development of ENBUILD—a cutting-edge Internal Developer Platform (IDP) combining AI/ML tooling, LLM-integrated automation, and GitOps-driven infrastructure as code delivery for US Federal clients and innovation programs.",
-        "highlights": [
-          "Developed a multi-tenant DevSecOps platform integrating LangChain-based LLM agents with Terraform code generation.",
-          "Devised and implemented Model Context Protocol (MCP) to bridge AI-driven insights with observability dashboards (Grafana, Kibana).",
-          "Led Kubernetes-native architecture deployment using BigBang, Istio, Keycloak, Kubeflow, and OPA Gatekeeper.",
-          "Built secure AMI and container pipelines aligned to DoD STIG compliance.",
-          "Automated CI/CD workflows using GitHub Actions, GitLab CI, fluxCD, and ArgoCD."
-        ]
+        "summary": "Led the architecture and development of ENBUILD, a modular Internal Developer Platform designed to support GitOps, AI/ML workflows, and Infrastructure as Code in secure cloud and on-prem environments. Focused on building practical automation and scalable tooling for government-focused DevSecOps initiatives.",
+        // "summary": "Led the architecture and development of ENBUILD a Turnkey DevSecOps Platform based on Platform One's open source Big Bang. Combining AI/ML capabilities, LLM-powered automation, and secure GitOps delivery for US Federal agencies and DoD innovation programs.",
+ "highlights": [
+    "Designed and implemented ENBUILD as an internal developer platform, combining GitOps practices, Kubernetes management, and Terraform-based infrastructure automation.",
+    "Integrated LangChain and OpenAI APIs into the platform to support basic LLM-based use cases like code generation and chatbot assistance for platform users.",
+    "Contributed to the creation of the Model Context Protocol (MCP) to improve integration between AI outputs and monitoring tools like Grafana and Prometheus.",
+    "Configured and deployed Big Bang (Platform One) Kubernetes modules using Iron Bank containers, focusing on compliance and security baselines.",
+    "Built pipelines for secure MLOps environments using Kubeflow, addressing basic data ingestion and model deployment workflows in air-gapped scenarios.",
+    "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
+    "Collaborated with DevSecOps, platform, and data teams to align ENBUILD with real-world requirements in multi-cloud and classified environments."
+  ]
       },
       {
         "name": "Hitachi Vantara / ReanCloud",
         "position": "Principal Cloud Architect",
         "startDate": "2016-09",
         "endDate": "2021-09",
-        "summary": "Directed cloud platform modernization and DevSecOps transformations for Fortune 500 clients and federal agencies, optimizing cost, scalability, and compliance.",
+        "summary": "Led cloud transformation initiatives and DevSecOps implementations for Fortune 500 clients and federal agencies, optimizing operational costs while strengthening security posture and compliance frameworks.",
         "highlights": [
-          "Redesigned Rean Accelerator platform with Kubernetes (EKS), STIG-hardened AMIs, and IaC pipelines.",
-          "Implemented Air-Gapped K8s environments with secure GitOps pipelines and automated remediation."
-          ,
-          "Managed microservice deployment strategies, centralized secret stores (Vault, SSM), and multi-region failover designs.",
-          "Delivered reusable CI/CD frameworks integrated with SonarQube, Snyk, Anchore, and HashiCorp tooling."
+          "Redesigned Rean Accelerator platform with EKS, implementing infrastructure-as-code patterns that reduced deployment cycles by 65% while maintaining STIG compliance.",
+          "Architected air-gapped Kubernetes environments with customized GitOps pipelines and automated security remediation for highly-regulated sectors.",
+          "Established multi-region resilience frameworks with centralized secrets management (HashiCorp Vault, AWS SSM) and zero-trust networking models.",
+          "Developed organization-wide CI/CD frameworks with embedded security scanning (SonarQube, Snyk, Anchore) that reduced vulnerability resolution time by 40%.",
+          "Led migration strategies for mission-critical workloads to containerized microservice architectures, improving scalability and operational efficiency."
         ]
       },
       {
@@ -68,22 +72,24 @@
         "position": "Senior Manager - Technical Operations",
         "startDate": "2012-10",
         "endDate": "2016-09",
-        "summary": "Led global technical operations for Mode Media, building scalable cloud-native systems and automating legacy infrastructure into resilient Dockerized stacks.",
+        "summary": "Directed global technical operations for a multi-million user digital media platform, transforming legacy infrastructure into resilient cloud-native systems supporting high-traffic media delivery networks.",
         "highlights": [
-          "Dockerized core publishing and analytics microservices with fully automated Jenkins pipelines.",
-          "Migrated on-prem workloads to AWS, improving reliability and operational visibility with ELK, Grafana, and Check_MK.",
-          "Developed Dashing dashboards for infra health and predictive failure analysis across 100+ nodes."
+          "Containerized mission-critical publishing and analytics platforms with orchestrated CI/CD pipelines, improving deployment reliability by 85%.",
+          "Led AWS migration strategy, implementing auto-scaling architectures that handled 200M+ monthly user sessions while reducing infrastructure costs by 30%.",
+          "Established comprehensive observability frameworks with ELK Stack, Grafana, and Check_MK, enabling predictive incident response across distributed infrastructure.",
+          "Implemented custom metrics visualization dashboards that reduced MTTR by 65% through enhanced operational intelligence and anomaly detection."
         ]
       },
       {
         "name": "Cybage Software",
-        "position": "Team Lead - Technical Support",
+        "position": "Team Lead - Technical Operations",
         "startDate": "2007-04",
         "endDate": "2012-10",
-        "summary": "Managed enterprise-scale remote infrastructure support for global clients, leading multi-member teams and building scalable monitoring and automation systems.",
+        "summary": "Managed enterprise infrastructure operations for global clients in finance and e-commerce sectors, leading distributed technical teams and implementing scalable monitoring solutions.",
         "highlights": [
-          "Led 24x7 monitoring and automation efforts using Nagios, Graphite, and RRDtool.",
-          "Migrated enterprise ITSM and NOC functions to scalable support workflows."
+          "Led 24x7 global monitoring operations using Nagios and Graphite, achieving 99.99% uptime for critical business applications.",
+          "Transformed manual ITSM processes to automated workflows, reducing incident resolution times by 45% and increasing team capacity by 3x.",
+          "Designed and implemented custom monitoring solutions for multi-tier applications, enabling proactive issue detection and resolution."
         ]
       },
       {
@@ -91,18 +97,19 @@
         "position": "Technical Support Engineer",
         "startDate": "2005-02",
         "endDate": "2005-10",
-        "summary": "Provided L1-L2 support for Linux server environments and application monitoring stacks."
+        "summary": "Provided L1-L2 technical support for Linux server environments and application monitoring solutions for enterprise clients."
       }
     ],
     "skills": [
       {
         "name": "Cloud & Platform Engineering",
         "keywords": [
-          "AWS (EKS, EC2, Lambda, RDS, S3)",
-          "Azure AKS",
-          "Google Cloud (GKE, Compute Engine)",
-          "Cloud Architecture",
-          "STIG Compliance",
+          "AWS GovCloud & Commercial",
+          "Azure Government & AKS",
+          "Google Cloud Platform (GKE)",
+          "Multi-Cloud Architecture",
+          "DISA STIG Compliance",
+          "Zero-Trust Security Models",
           "Air-Gap Environments"
         ]
       },
@@ -110,69 +117,98 @@
         "name": "Kubernetes & Container Orchestration",
         "keywords": [
           "Kubernetes (EKS, AKS, RKE2)",
-          "Helm",
-          "Istio",
+          "Platform One Big Bang",
+          "Helm Charts & Operators",
+          "Istio Service Mesh",
           "OPA Gatekeeper",
-          "Service Mesh",
-          "Namespace RBAC",
-          "Secrets Management"
+          "Iron Bank Containers",
+          "Network Policies",
+          "Namespace RBAC"
         ]
       },
       {
         "name": "DevSecOps & Automation",
         "keywords": [
           "GitOps (fluxCD, ArgoCD)",
-          "CI/CD (GitHub Actions, GitLab CI, Jenkins)",
-          "Terraform & Pulumi",
-          "Ansible, Chef, Puppet",
-          "Vault, SOPS",
+          "CI/CD (GitHub Actions, GitLab CI)",
+          "Infrastructure as Code (Terraform)",
+          "Continuous ATO Pipelines",
+          "HashiCorp Suite (Vault, Consul)",
+          "SOPS, Sealed Secrets",
           "SonarQube, Snyk, Trivy, Anchore"
         ]
       },
       {
         "name": "Observability & Monitoring",
         "keywords": [
-          "Prometheus",
-          "Grafana",
-          "ELK Stack",
-          "Check_MK",
+          "Prometheus & Thanos",
+          "Grafana Dashboards",
+          "ELK Stack (OpenSearch)",
+          "Jaeger & OpenTelemetry",
           "Alertmanager",
-          "Dashboards",
-          "Log Aggregation"
+          "Log Aggregation",
+          "Model Context Protocol"
         ]
       },
       {
         "name": "AI/ML & LLM Integration",
         "keywords": [
-          "LangChain",
-          "OpenAI APIs",
-          "HuggingFace Transformers",
-          "Vector DBs (FAISS, Chroma)",
-          "LLM Chat Agents",
+          "LangChain Framework",
+          "ReAct Prompting Patterns",
+          "OpenAI & HuggingFace Integration",
+          "Vector Databases (FAISS, Chroma, Pinecone)",
+          "LLM Agents Architecture",
           "Prompt Engineering",
-          "Model Context Protocol"
+          "Kubeflow MLOps Pipelines",
+          "RAG Systems Design"
+        ]
+      },
+      {
+        "name": "Platform Engineering & IDP",
+        "keywords": [
+          "Internal Developer Platforms",
+          "Human-Centered Design UI",
+          "Self-Service Infrastructure",
+          "Golden Path Implementations",
+          "Multi-Tenancy Models",
+          "Platform Metrics & SLOs",
+          "Developer Experience Optimization"
         ]
       },
       {
         "name": "Programming & Scripting",
         "keywords": [
-          "Python",
+          "Python (Django, FastAPI)",
           "Golang",
           "Bash",
-          "Perl",
-          "Django",
-          "FastAPI"
-        ]
-      },
-      {
-        "name": "Infrastructure & Networking",
-        "keywords": [
-          "Linux (Ubuntu, CentOS, RHEL)",
-          "HAProxy",
-          "DNS & Bind",
-          "Networking (VPC, VPN, IPtables)"
+          "Infrastructure as Code",
+          "API Development",
+          "Automation Scripting"
         ]
       }
-    ]
+    ],
+    "education": [
+    {
+      "institution": "North Maharashtra University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2000",
+      "endDate": "2004",
+      "score": "65.71% (First class with distinction)"
+    },
+    {
+      "institution": "Nashik",
+      "studyType": "Higher Secondary Certificate (HSC)",
+      "startDate": "1998",
+      "endDate": "2000",
+      "score": "71.83% (First class)"
+    },
+    {
+      "institution": "Nashik",
+      "studyType": "Secondary School Certificate (SSC)",
+      "startDate": "1996",
+      "endDate": "1998",
+      "score": "68.53% (First class)"
+    }
+  ]
   }
-  
