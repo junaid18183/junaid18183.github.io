@@ -1,10 +1,10 @@
 {
   "meta": {
-    "theme": "jsonresume-theme-professional"
+    "theme": "jsonresume-theme-kendall"
   },
   "basics": {
     "name": "Juned Memon",
-    "label": "DevSecOps | Platform Engineering Leader | Cloud-Native Systems | System Engineer | Cloud Architect | LLM Integrator | AI/ML Systems",
+    "label": "DevOps | Platform Engineering | Cloud-Native Systems | System Engineer | Cloud Architect | LLM Integrator | AI/ML Systems",
     "picture": "https://gravatar.com/junaid18183",
     "image": "https://gravatar.com/junaid18183",
     "email": "junaid18183@gmail.com",
@@ -309,7 +309,7 @@
     {
       "name": "Mode Media Corporation / Ning Inc",
       "company": "Mode Media Corporation / Ning Inc",
-      "url": "https://techcrunch.com/2011/09/20/glam-buys-ning-andreessen-joins-board/",
+      "url_old": "https://techcrunch.com/2011/09/20/glam-buys-ning-andreessen-joins-board/",
       "position": "Senior Manager - Technical Operations",
       "startDate": "2012-10-25",
       "endDate": "2016-09-21",
@@ -360,7 +360,7 @@
       "name": "DX Technologies Pvt. Ltd.",
       "company": "DX Technologies Pvt. Ltd.",
       "position": "Technical Support Engineer",
-      "url": "https://economictimes.indiatimes.com/company/dx-technologies-private-limited/U72200PN2002PTC016679",
+      "url_old": "https://economictimes.indiatimes.com/company/dx-technologies-private-limited/U72200PN2002PTC016679",
       "startDate": "2005-02-24",
       "endDate": "2005-10-31",
       "summary": "Provided L2-L3 technical support for Linux server environments and application monitoring solutions",
