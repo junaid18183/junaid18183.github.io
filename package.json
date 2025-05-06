@@ -6,13 +6,20 @@
     "node": ">=22.8.0"
   },
   "dependencies": {
+    "jsonresume-theme-engineering": "^0.2.1",
+    "jsonresume-theme-engineering-leader": "^1.0.28",
     "jsonresume-theme-even": "^0.23.0",
-    "jsonresume-theme-modern": "^0.0.18",
+    "jsonresume-theme-modern": "^0.0.5",
     "jsonresume-theme-stackoverflow": "^2.1.0",
     "puppeteer": "^24.8.0",
+    "react-dom": "^18.3.1",
     "resumed": "^5.0.0"
   },
   "scripts": {
-    "export": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-modern"
+    "export:engineering": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-engineering",
+    "export:engineering-leader": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-engineering-leader",
+    "export:modern": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-modern",
+    "export:even": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-even",
+    "export:stackoverflow": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-stackoverflow"
   }
 }

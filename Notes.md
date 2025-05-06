@@ -1,6 +1,8 @@
 ## How to create PDF resume locally
 
 ```bash
+❯ npm install
+
 ❯ npm run export
 
 > my-resume@0.0.1 export

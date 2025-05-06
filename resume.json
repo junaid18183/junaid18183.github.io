@@ -1,7 +1,11 @@
 {
+  "meta": {
+    "theme": "jsonresume-theme-professional"
+  },
   "basics": {
     "name": "Juned Memon",
     "label": "DevSecOps | Platform Engineering Leader | Cloud-Native Systems | System Engineer | Cloud Architect | LLM Integrator | AI/ML Systems",
+    "picture": "https://gravatar.com/junaid18183",
     "image": "https://gravatar.com/junaid18183",
     "email": "junaid18183@gmail.com",
     "phone": "+91-98238-41436",
@@ -249,6 +253,7 @@
   "work": [
     {
       "name": "VivSoft / AIML2",
+      "company": "VivSoft / AIML2",
       "url": "https://www.vivsoft.io/",
       "position": "DevSecOps Lead & Platform Architect",
       "startDate": "2021-09-13",
@@ -257,7 +262,7 @@
         "Designed and implemented ENBUILD as an internal developer platform, combining GitOps practices, Kubernetes management, and Terraform-based infrastructure automation.",
         "Integrated LangChain and OpenAI APIs into the platform to support basic LLM-based use cases like code generation and chatbot assistance for platform users.",
         "Contributed to the creation of the Model Context Protocol (MCP) to improve integration between AI outputs and monitoring tools like Grafana and Prometheus.",
-        "Configured and deployed Big Bang (Platform One) Kubernetes modules using Iron Bank containers, focusing on compliance and security baselines.",
+        "Automated Configuration and deployment of Platform One Big Bang on RKE2/EKS Kubernetes using Iron Bank containers, focusing on compliance and security baselines.",
         "Built pipelines for secure MLOps environments using Kubeflow, addressing basic data ingestion and model deployment workflows in air-gapped scenarios.",
         "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
         "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards.",
@@ -273,6 +278,7 @@
     },
     {
       "name": "Hitachi Vantara / ReanCloud",
+      "company": "Hitachi Vantara / ReanCloud",
       "url": "https://www.hitachivantara.com/en-us/home",
       "position": "Principal Cloud Architect",
       "startDate": "2016-09-21",
@@ -302,6 +308,7 @@
     },
     {
       "name": "Mode Media Corporation / Ning Inc",
+      "company": "Mode Media Corporation / Ning Inc",
       "url": "https://techcrunch.com/2011/09/20/glam-buys-ning-andreessen-joins-board/",
       "position": "Senior Manager - Technical Operations",
       "startDate": "2012-10-25",
@@ -328,6 +335,7 @@
     },
     {
       "name": "Cybage Software",
+      "company": "Cybage Software",
       "position": "Team Lead - Technical Operations",
       "url": "https://www.cybage.com/",
       "startDate": "2007-04-05",
@@ -350,6 +358,7 @@
     },
     {
       "name": "DX Technologies Pvt. Ltd.",
+      "company": "DX Technologies Pvt. Ltd.",
       "position": "Technical Support Engineer",
       "url": "https://economictimes.indiatimes.com/company/dx-technologies-private-limited/U72200PN2002PTC016679",
       "startDate": "2005-02-24",
