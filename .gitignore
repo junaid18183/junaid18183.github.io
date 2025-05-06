@@ -6,3 +6,4 @@ _data/_site/
 .bundle/
 .ruby-version
 vendor/
+node_modules/*
