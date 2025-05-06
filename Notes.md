@@ -1,17 +1,16 @@
-## Docs
+## How to create PDF resume locally
 
-### Running locally
+```bash
+❯ npm run export
 
-To test locally, run the following in your terminal:
+> my-resume@0.0.1 export
+> node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-modern
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
-
-## Credits
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-#
+{
+  LinkedIn: 'junaid18183',
+  GitHub: 'junaid18183',
+  GitLab: 'junaid18183',
+  Twitter: '@junaid18183'
+}
+You can find your exported resume at assets/Juned_Resume.pdf. Nice work! 🚀
+```

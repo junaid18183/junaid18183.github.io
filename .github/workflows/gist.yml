@@ -1,7 +1,6 @@
 name: Update Resume Gist
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
@@ -18,3 +17,4 @@ jobs:
         token: ${{ secrets.TOKEN }}
         gist_id: 8896f09cd09bec2ddcffb6a41b4f3eb0
         file_path: resume.json
+        file_type: json
