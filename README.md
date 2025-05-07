@@ -1,60 +1,15 @@
-# 👋 Hi, I'm Juned Memon
+## Submodule 
+```bash
+git submodule add https://github.com/A-Duck/jsonresume-theme-kendall.git jsonresume-theme-juned
+git submodule update --init --recursive
 
-**DevSecOps | Kubernetes Platform Engineer | Cloud Architect | LLM Integrator**
+```
+## How to create PDF resume locally
 
-A passionate DevOps and AI/ML systems engineer with 13+ years of experience in infrastructure automation, Kubernetes, cloud architecture (AWS/Azure/GCP), and building developer platforms. I believe in writing clean code, automating everything, and building resilient systems.
+```bash
+❯ npm install
+❯ cp -r jsonresume-theme-juned node_modules/jsonresume-theme-juned
 
----
+❯ make export
 
-## 🔧 Skills
-
-- **Cloud Platforms:** AWS, Azure, GCP
-- **Containers & Orchestration:** Docker, Kubernetes, Swarm, LXC
-- **IaC & GitOps:** Terraform, Ansible, Helm, ArgoCD, FluxCD
-- **CI/CD:** Jenkins, GitLab CI/CD, GitHub Actions
-- **Monitoring:** Prometheus, Grafana, ELK, Nagios, Check_MK
-- **Scripting:** Bash, Python, Golang
-- **Security:** STIG, Hardened AMIs, DoD Compliant Builds
-
----
-
-## 🛠 Projects & Open Source Contributions
-
-Visit the [projects](https://github.com/junaid18183?tab=repositories&q=&type=public&language=&sort=) section for details.
-
-- [terraform-provider-checkmk](https://github.com/junaid18183/terraform-provider-checkmk)
-- [HALB](https://github.com/junaid18183/HALB) - HAProxy management wrapper
-- [zonemanage](https://github.com/junaid18183/zonemanage)
-- [Sojourner](https://github.com/junaid18183/Sojourner) - CMDB and inventory tool
-- [Nagios Plugins](https://github.com/junaid18183/nagios-plugins)
-
----
-
-## 🧾 Resume
-
-📄 [Download PDF Resume](assets/Juned_Resume.pdf)  
-📜 [View YAML Resume](_data/data.yml)
-
----
-
-## 🎓 Certifications
-
-- ✅ CKAD – [View Badge](https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url)
-- ✅ CKA – [View Badge](https://www.youracclaim.com/badges/39b75d40-5a4b-46c9-965a-5cbc86abec9f/public_url)
-- ✅ AWS Solutions Architect Associate – [View Badge](https://www.youracclaim.com/badges/988261f3-7e65-4700-ad70-1be5fd3c854c/public_url)
-- ✅ ![ITIL V3 Foundation](https://img.shields.io/badge/ITIL-V3_Foundation-blue)
-
----
-
-## 📬 Connect with Me
-
-- 🔗 [Website](https://junaid18183.github.io)
-- 💼 [LinkedIn](https://linkedin.com/in/junaid18183)
-- 🐦 [Twitter](https://twitter.com/junaid18183)
-- 🧑‍💻 [GitHub](https://github.com/junaid18183)
-
-## 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=junaid18183&count_private=true&show_icons=true&include_all_commits=true)
-
----
-> ✨ This profile is built using YAML + Markdown for clean, version-controlled personal branding.
+```
