@@ -1,0 +1,38 @@
+name: Deploy Resume to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required to push to gh-pages
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: make install
+
+      - name: Export HTML Resume
+        run: make export_html
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target
+          destination_dir: .
+          publish_branch: gh-pages
+          user_name: github-actions
+          user_email: github-actions@github.com
+          keep_files: false

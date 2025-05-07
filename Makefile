@@ -8,13 +8,13 @@ export_pdf:
 
 export_html:
 	mkdir -p target
-	node_modules/resumed/bin/resumed.js --theme jsonresume-theme-juned -o target/juned_resume.html
+	node_modules/resumed/bin/resumed.js --theme jsonresume-theme-juned -o target/index.html
 
-deploy_html:
-	make export_html
-	git checkout gh-pages
-	cp target/juned_resume.html index.html
-	git add index.html
-	git commit -m "Update resume HTML"
-	git push origin gh-pages
-	git checkout main
+# deploy_html:
+# 	make export_html
+# 	git checkout gh-pages
+# 	cp target/juned_resume.html index.html
+# 	git add index.html
+# 	git commit -m "Update resume HTML"
+# 	git push origin gh-pages
+# 	git checkout main
