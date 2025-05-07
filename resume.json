@@ -1,8 +1,7 @@
 {
   "meta": {
-    "theme": "jsonresume-theme-professional",
-    "palette" : {}
-  },
+    "theme": "jsonresume-theme-professional"
+    },
   "basics": {
     "name": "Juned Memon",
     "label": "DevOps | Platform Engineering | Cloud-Native Systems | System Engineer | Cloud Architect | LLM Integrator | AI/ML Systems",

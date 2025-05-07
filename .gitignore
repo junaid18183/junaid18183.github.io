@@ -7,3 +7,4 @@ _data/_site/
 .ruby-version
 vendor/
 node_modules/*
+target/

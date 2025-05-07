@@ -19,12 +19,12 @@
     "resumed": "^5.0.0"
   },
   "scripts": {
-    "export": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-kendall",
-    "export:engineering": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-engineering",
-    "export:kendall": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-kendall",
-    "export:engineering-leader": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-engineering-leader",
-    "export:modern": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-modern",
-    "export:even": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-even",
-    "export:stackoverflow": "node_modules/resumed/bin/resumed.js export -o assets/Juned_Resume.pdf -t jsonresume-theme-stackoverflow"
+    "export": "node_modules/resumed/bin/resumed.js export -o target/Juned_Resume.pdf -t jsonresume-theme-kendall",
+    "export:engineering": "node_modules/resumed/bin/resumed.js export -o target/Juned_Resume.pdf -t jsonresume-theme-engineering",
+    "export:kendall": "node_modules/resumed/bin/resumed.js export -o target/Juned_Resume.pdf -t jsonresume-theme-kendall",
+    "export:engineering-leader": "node_modules/resumed/bin/resumed.js export -o target/Juned_Resume.pdf -t jsonresume-theme-engineering-leader",
+    "export:modern": "node_modules/resumed/bin/resumed.js export -o target/Juned_Resume.pdf -t jsonresume-theme-modern",
+    "export:even": "node_modules/resumed/bin/resumed.js export -o target/Juned_Resume.pdf -t jsonresume-theme-even",
+    "export:stackoverflow": "node_modules/resumed/bin/resumed.js export -o target/Juned_Resume.pdf -t jsonresume-theme-stackoverflow"
   }
 }
