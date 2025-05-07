@@ -4,3 +4,6 @@
 [submodule "github_profile"]
 	path = github_profile
 	url = git@github.com:junaid18183/junaid18183.git
+[submodule "blog"]
+	path = blog
+	url = git@github.com:junaid18183/blog.git
