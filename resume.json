@@ -259,11 +259,11 @@
       "startDate": "2021-09-13",
       "summary": "Led the architecture and development of ENBUILD integrating Platform One BigBang",
       "highlights": [
-        "Designed and implemented ENBUILD as an internal developer platform, combining GitOps practices, Kubernetes management, and Terraform-based infrastructure automation.",
-        "Integrated LangChain and OpenAI APIs into the platform to support basic LLM-based use cases like code generation and chatbot assistance for platform users.",
-        "Contributed to the creation of the Model Context Protocol (MCP) to improve integration between AI outputs and monitoring tools like Grafana and Prometheus.",
-        "Automated Configuration and deployment of Platform One Big Bang on RKE2/EKS Kubernetes using Iron Bank containers, focusing on compliance and security baselines.",
-        "Built pipelines for secure MLOps environments using Kubeflow, addressing basic data ingestion and model deployment workflows in air-gapped scenarios.",
+        "Architected and led the development of ENBUILD, a turnkey DevSecOps platform simplifying Platform One Big Bang deployments across multi-cloud and on-premise environments.",
+        "Integrated AI microservices, including LLM-powered chatbots and Terraform code generators using LangChain, enhancing automation capabilities.",
+        "Designed and implemented the Model Context Protocol (MCP) to integrate AI insights with observability tools like Grafana.",
+        "Automated configuration and deployment of Platform One Big Bang on RKE2/EKS Kubernetes using Iron Bank containers, focusing on compliance and security baselines.",
+        "Built an automation for installing secure MLOps environments using Kubeflow, addressing basic data ingestion and model deployment workflows in air-gapped scenarios.",
         "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
         "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards.",
         "Developed automated testing frameworks for CI/CD pipelines, enhancing deployment reliability and reducing integration issues."
