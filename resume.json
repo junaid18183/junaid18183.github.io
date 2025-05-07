@@ -1,6 +1,7 @@
 {
   "meta": {
-    "theme": "jsonresume-theme-professional"
+    "theme": "jsonresume-theme-professional",
+    "palette" : {}
   },
   "basics": {
     "name": "Juned Memon",
