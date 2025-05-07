@@ -1,0 +1,3 @@
+[submodule "jsonresume-theme-juned"]
+	path = jsonresume-theme-juned
+	url = https://github.com/A-Duck/jsonresume-theme-kendall.git
