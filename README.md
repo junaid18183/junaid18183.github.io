@@ -13,3 +13,9 @@ git submodule update --init --recursive
 ❯ make export
 
 ```
+
+## How to push to submodule
+
+```bash
+git submodule update --remote
+```

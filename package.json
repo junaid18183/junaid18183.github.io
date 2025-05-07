@@ -19,12 +19,12 @@
     "resumed": "^5.0.0"
   },
   "scripts": {
-    "export:juned": "node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-juned",
-    "export:engineering": "node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-engineering",
-    "export:kendall": "node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-kendall",
-    "export:engineering-leader": "node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-engineering-leader",
-    "export:modern": "node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-modern",
-    "export:even": "node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-even",
-    "export:stackoverflow": "node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-stackoverflow"
+    "export:juned": "node_modules/resumed/bin/resumed.js export -o github_profile/juned_resume.pdf -t jsonresume-theme-juned",
+    "export:engineering": "node_modules/resumed/bin/resumed.js export -o github_profile/juned_resume.pdf -t jsonresume-theme-engineering",
+    "export:kendall": "node_modules/resumed/bin/resumed.js export -o github_profile/juned_resume.pdf -t jsonresume-theme-kendall",
+    "export:engineering-leader": "node_modules/resumed/bin/resumed.js export -o github_profile/juned_resume.pdf -t jsonresume-theme-engineering-leader",
+    "export:modern": "node_modules/resumed/bin/resumed.js export -o github_profile/juned_resume.pdf -t jsonresume-theme-modern",
+    "export:even": "node_modules/resumed/bin/resumed.js export -o github_profile/juned_resume.pdf -t jsonresume-theme-even",
+    "export:stackoverflow": "node_modules/resumed/bin/resumed.js export -o github_profile/juned_resume.pdf -t jsonresume-theme-stackoverflow"
   }
 }
