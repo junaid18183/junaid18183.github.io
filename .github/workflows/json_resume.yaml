@@ -19,15 +19,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-
-      - name: Install dependencies
-        run: make install
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
 
       - name: Export HTML Resume
         run: |
-            make install
-            make export-html
-            make export_pdf
+            npm install
+            cp -r jsonresume-theme-juned node_modules/jsonresume-theme-juned
+            node_modules/resumed/bin/resumed.js --theme jsonresume-theme-juned -o target/index.html
+            node_modules/resumed/bin/resumed.js export -o target/juned_resume.pdf -t jsonresume-theme-juned
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4

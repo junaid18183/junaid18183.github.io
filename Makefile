@@ -8,7 +8,7 @@ export_pdf:
 
 export_html:
 	mkdir -p target
-	node_modules/resumed/bin/resumed.js --theme jsonresume-theme-juned -o target/index.html
+	node_modules/resumed/bin/resumed.js --theme jsonresume-theme-juned -o target/juned_resume.html
 
 # deploy_html:
 # 	make export_html
