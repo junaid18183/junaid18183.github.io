@@ -24,7 +24,10 @@ jobs:
         run: make install
 
       - name: Export HTML Resume
-        run: make export_html
+        run: |
+            make install
+            make export-html
+            make export_pdf
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
