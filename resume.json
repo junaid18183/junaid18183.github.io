@@ -1,7 +1,4 @@
 {
-  "meta": {
-    "theme": "jsonresume-theme-kendall"
-  },
   "basics": {
     "name": "Juned Memon",
     "label": "DevOps | Platform Engineering | Cloud-Native Systems | System Engineer | Cloud Architect | LLM Integrator | AI/ML Systems",
@@ -26,11 +23,6 @@
         "network": "GitHub",
         "username": "junaid18183",
         "url": "https://github.com/junaid18183"
-      },
-      {
-        "network": "GitLab",
-        "username": "junaid18183",
-        "url": "https://gitlab.com/junaid18183"
       },
       {
         "network": "Twitter",
@@ -222,32 +214,22 @@
     {
       "name": "ENBUILD",
       "description": "ENBUILD is a turnkey DevSecOps platform simplifying Kubernetes and Platform One Big Bang deployments across multi-cloud and on-premise environments.",
-      "url": "https://enbuild-docs.vivplatform.io/",
-      "highlights": [
-        "Written Backend microservices in Golang for the ENBUILD platform, including LLM-powered chatbots and Terraform code generators.",
-        "Created IAC code using Terraform , Helm Charts , Crossplane to create the ENBUILD Catalog items for federal client requirements.",
-        "Evaluated K8s custom controller and operator frameworks for the ENBUILD platform along with Crossplane."
-      ]
+      "url": "https://enbuild-docs.vivplatform.io/"
     },
     {
       "name": "Hitachi Accelerator Cloud Platform (HCAP)",
       "url": "https://www.reancloud.com/",
-      "description": "HCAP is a suite of products to accelerate the migration and deployment, assessment of applications on Public Clouds.",
-      "highlights": [
-        "Migrated the cloud accelerator platforms to Kubernetes with all design and architecture",
-        "Created an Automation using Terraform to stand up EKS clusters to deploy the HCAP platform in SAAS offerning and Client Side deployment.",
-        "Helped automation and deployment of the HCAP platform on Kubernetes in air gap environment for US Transcom"
-      ]
+      "description": "HCAP is a suite of products to accelerate the migration and deployment, assessment of applications on Public Clouds."
+    },
+    {
+      "name": "Terradata",
+      "url": "https://www.reancloud.com/",
+      "description": "Designed and implemented an automated API-based provisioning system with a management UI for VLAN-segregated TMC application instances across IntelliFlex™, IntelliBase, and AWS."
     },
     {
       "name": "LiteNing",
       "url": "https://www.ning.com/",
-      "description": "LiteNing is an effort to merge the infrastructure and tooling of Ning Inc and mode media/glam media, after it was aquired.",
-      "highlights": [
-        "Helped the migration of the infrastructure from Ning managed Data Centers to Mode Media Colocations.",
-        "Implemented a unified monitoring solution across the merged infrastructure to enhance operational visibility, using Check_MK and Nagios.",
-        "Automated bare metal deployment and LXC container virtualization using Cobbler and configuration management tool (Ansible)"
-      ]
+      "description": "LiteNing is an effort to merge the infrastructure and tooling of Ning Inc and mode media/glam media, after it was aquired."
     }
   ],
   "work": [
@@ -257,22 +239,19 @@
       "url": "https://www.vivsoft.io/",
       "position": "DevSecOps Lead & Platform Architect",
       "startDate": "2021-09-13",
-      "summary": "Led the architecture and development of Open Source platform ENBUILD a human-centered UI accelerator that simplifies and automates the deployment of Platform One's Big Bang DevSecOps platform-enabling secure, compliant, and rapid Kubernetes-based software factory setups across cloud or on-premises environments",
+      "summary": "Led the architecture and development of Open Source platform ENBUILD a human-centered UI accelerator that simplifies and automates the deployment of P1's Big Bang DevSecOps platform enabling secure, compliant, and rapid Kubernetes-based software factory setups across cloud or on-premises environments",
       "highlights": [
-        "Automated configuration and deployment of Platform One Big Bang on RKE2/EKS Kubernetes using Iron Bank containers, focusing on compliance and security baselines.",
-        "Created and Integrated AI microservice written in Golang, including LLM-powered chatbots and Terraform code generators using LangChain, enhancing automation capabilities.",
-        "Designed and implemented the Model Context Protocol (MCP) to integrate AI insights with observability tools like Grafana.",
-        "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
-        "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards.",
-        "Implemented monitoring and alerting solutions using Prometheus and Grafana for the ENBUILD platform.",
-        "Developed CI/CD pipelines for automated deployment of ENBUILD components using GitHub Actions."
-      ],
-      "old_details": [
-        "Part of the VivSoft Platformn Team to architect build and stabilize the platform for solutions deployment on Kubernetes.",
-        "Added the opinionated installation of DoD's Platfform1 BigBang Deployment in the Enbuild Platform.",
-        "Added the opinionated installation of the kubeflow in the Enbuild Platform.",
-        "Managing CI CD for the Enbuild installation using GitOps.",
-        "Creating and managing the hardened AMI and docker images for installation."
+        "Architected, built, and stabilized the ENBUILD platform as part of the VivSoft Platform Team to support secure  deployment of Kubernetes clusters and solution on kubernetes.",
+        "Integrated opinionated installations of DoD's Platform One Big Bang and Kubeflow into the ENBUILD platform to accelerate secure, ML-ready environments.",
+        "Developed backend microservices in Golang for the ENBUILD platform, including LLM-powered chatbots and Terraform code generators using LangChain.",
+        "Designed and implemented the Model Context Protocol (MCP) to integrate AI-driven insights with observability tools such as Grafana.",
+        "Created infrastructure-as-code (IaC) using Terraform, Helm Charts, and Crossplane to deliver reusable ENBUILD Catalog items for federal clients.",
+        "Built and later transitioned from a custom Kubernetes operator in Golang to Crossplane to streamline application deployments.",
+        "Implemented GitOps workflows using Argo CD and Flux CD for consistent, version-controlled CI/CD across multiple Kubernetes clusters.",
+        "Managed GitOps-driven CI/CD pipelines for ENBUILD using GitHub Actions, enabling automated build, test, and deployment processes.",
+        "Created and maintained hardened AMIs and Docker images aligned with federal security standards to ensure secure software deployments.",
+        "Secured ENBUILD containers and achieved Iron Bank approval, meeting stringent DoD compliance requirements.",
+        "Deployed robust monitoring and alerting solutions using Prometheus and Grafana to support real-time observability of platform services."
       ]
     },
     {
@@ -284,23 +263,17 @@
       "endDate": "2021-09-09",
       "summary": "Led the global DevSecOps transformation for REAN's accelerator platform, driving its migration to Kubernetes with scalable CI/CD, air-gapped deployments, and federal-grade compliance.",
       "highlights": [
-        "Architected full platform migration to Kubernetes with Helm packaging and automated CI/CD pipelines.",
-        "Implemented air-gapped deployments using Terraform and STIG-hardened AMIs to meet federal compliance requirements.",
-        "Developed automated STIG (Security Technical Implementation Guides) compliance workflows for AMIs and containers",
-        "Defined microservices deployment strategies for high-scale online portals with enhanced resilience.",
-        "Delivered CI/CD automation for an Independent Software Vendor (ISV), accelerating delivery on Kubernetes.",
-        "Led REAN Cloud's Managed Services team, mentoring engineers and standardizing cloud operations.",
-        "Architected multi-region, cost-optimized cloud infrastructure with centralized secrets management.",
-        "Migrated legacy workloads to containerized microservices, improving scalability and operational efficiency."
-      ],
-      "old_details": [
-        "Lead an international DevSecOps team to build the automation for accelerator products of the company.Utilized standard DevOps tools including Kubernetes, Docker, Chef, CloudFormation, Terraform, git, Jenkins, Docker",
-        "-  Part of in-house product architecture team to build the company's accelerator products.",
-        "-  Assisted with STIGing, scanning and remediation for AMI/Docker container to meet client standards.",
-        "-  Designed the process of Installation and configuration of cloud accelerator platform in AirGap environments.",
-        "-  Part of delivery project for online portal defining the deployment architecture for microservices.",
-        "-  Part of delivery project for the big ISV client handling their automation around AWS and container deployment on Kubernetes.",
-        "-  Part of Managed Services team of REAN, Leading the team L1/L2 resources. And help to setup the processes and mentor them for cloud operations."
+        "Architected and executed a full platform migration to Kubernetes, including Helm packaging and automated CI/CD pipelines for SaaS and client-side deployments.",
+        "Developed Terraform-based automation to provision EKS clusters for HCAP platform deployment in both cloud and air-gapped environments, including for US Transcom.",
+        "Designed and implemented secure, STIG-compliant workflows for hardening AMIs and Docker containers, aligning with federal compliance standards.",
+        "Built and deployed cloud accelerator platforms in air-gapped environments, handling installation, configuration, and compliance automation.",
+        "Defined resilient microservices deployment strategies for large-scale online portals, improving availability and operational robustness.",
+        "Delivered Kubernetes-based CI/CD automation for Independent Software Vendor (ISV) projects, accelerating containerized software delivery.",
+        "Migrated legacy workloads to containerized microservices, enhancing scalability, resilience, and maintainability.",
+        "Architected multi-region, cost-optimized AWS infrastructure with centralized secrets and configuration management.",
+        "Served on the in-house product architecture team, driving the design and evolution of internal accelerator products.",
+        "Developed Custom Terraform Providers in Golang for custom tools to be used within HCAP DEPLOY",
+        "Led REAN Cloud's Managed Services team, mentoring L1/L2 engineers and establishing standardized processes for cloud operations and support."
       ]
     },
     {
@@ -313,21 +286,14 @@
       "endDate": "2016-09-21",
       "summary": "Led infrastructure operations, cloud migration, and site reliability engineering for a high-traffic media platform serving over 200M monthly users.",
       "highlights": [
-        "Managed a global team of system engineers to maintain large-scale production infrastructure and web applications.",
-        "Automated bare-metal provisioning and LXC virtualization using Cobbler and Ansible, accelerating infrastructure readiness.",
-        "Led the migration of adserving platforms from colocation to AWS, rearchitecting into microservices using Docker.",
-        "Built distributed monitoring for 3500+ servers and 50K+ services using Check_MK and Nagios with custom plugins.",
-        "Standardized DevOps tooling for automation with GitLab, HAProxy, Hadoop, DNS, Slack integrations, and private Yum repos.",
-        "Centralized cron job orchestration via Jenkins, replacing scattered task scheduling across environments.",
-        "Developed unified executive dashboards with Dashing for real-time visibility into infrastructure and application health."
-      ],
-      "old_details": [
-        "Managing team of system engineers to maintain the large scale infrastructure and applications.",
-        "- Migrated the ADSERVING platform to AWS from co location and converted that in micro service architecture using Docker.",
-        "- Implemented the distributed monitoring for Infrastructure to monitor 3500 servers and 50K services using Nagios/Check_MK with custom plugins.",
-        "- Implemented and customized DevOps tools for automation e.g. GitLab, Yum Repos, DNS , Inventory, Slack , Haproxy, Hadoop etc.",
-        "- Migrated the cron from multiple servers to Centralized setup using Jenkins.",
-        "- Created centralized dashboard for high level view using Dashing."
+        "Led a global team of system engineers to manage and maintain large-scale production infrastructure and web applications.",
+        "Migrated ad-serving platforms from colocated data centers to AWS, re-architecting them into microservices using Docker for enhanced scalability and reliability.",
+        "Supported the transition of infrastructure from Ning-managed data centers to Mode Media colocations, ensuring minimal downtime and seamless operations.",
+        "Automated bare-metal provisioning and LXC container virtualization using Cobbler and Ansible, significantly reducing infrastructure deployment time.",
+        "Implemented a distributed monitoring solution for over 3,500 servers and 50,000+ services using Check_MK and Nagios with custom plugins to improve observability and proactive issue resolution.",
+        "Standardized DevOps automation tooling using GitLab, HAProxy, Hadoop, DNS, Slack integrations, private Yum repositories, and custom inventory management.",
+        "Centralized cron job orchestration by replacing fragmented scheduling across servers with Jenkins pipelines, improving reliability and auditability.",
+        "Built real-time executive dashboards using Dashing to provide unified visibility into infrastructure and application health across the enterprise."
       ]
     },
     {
@@ -344,13 +310,6 @@
         "Deployed and maintained enterprise-grade monitoring and visualization tools including Nagios, BigBrother, Cacti, Munin, RRDtool, Graphite, and Grafana.",
         "Managed resource allocation, team rosters, and leave planning across multiple support teams to maintain high operational continuity.",
         "Collaborated with Delivery Managers on proposals and client capability presentations, contributing to successful business development and project wins."
-      ],
-      "old_details": [
-        "Consulting and Handling Operations for multiple Remote Infrastrcuture Management teams.",
-        "- Completed Transition for four RIMS projects; Rubicon Operations, Proviner, KN-Dimestore and DivXTV.",
-        "- Installed Remote Infrastructure Tools for these Projects e.g. Nagios, Bigbrother, Cacti, Munin, RRDtool, Bugzila, Graphite, Grafana etc.",
-        "- Managed multiple teams work allocation, roster and leaves.",
-        "- Assisted Delivery Manager in Business development tasks, proposals and capability presentation."
       ]
     },
     {
@@ -364,9 +323,6 @@
       "highlights": [
         "Installation, maintenance and support of Linux Servers and applications ( DXContent Factory, DX-Reader etc )",
         "Delivered L2-L3 technical support for Linux server environments, ensuring high availability and performance."
-      ],
-      "old_details": [
-        "Installation, maintenance and support of Linux Servers and applications ( DXContent Factory, DX-Reader etc )"
       ]
     }
   ]

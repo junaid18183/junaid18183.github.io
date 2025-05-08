@@ -1,0 +1,9 @@
+# How to add default theme in resume.json
+Add following lines to your `resume.json` file to set a default theme:
+```json
+  "theme": "jsonresume-theme-kendall",
+```
+  "meta": {
+    "theme": "jsonresume-theme-kendall"
+  },
+```
