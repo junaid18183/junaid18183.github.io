@@ -116,12 +116,12 @@
       "name": "Cloud & Platform Engineering",
       "keywords": [
         "AWS (Commercial & GovCloud)",
-        "Azure & Azure Government",
-        "Google Cloud Platform (GCP)",
+        "Azure and Google Cloud Platform (GCP)",
         "Hybrid and Multi-Cloud Architecture",
         "Cloud-Native Platforms",
         "Air-Gapped Infrastructure",
-        "Internal Developer Platforms (IDP)",
+        "Internal Developer Platforms (IDP) Engineering",
+        "Backstage Developer Portal",
         "Infrastructure Cost Optimization"
       ]
     },
@@ -131,22 +131,18 @@
         "Linux System Administration",
         "Shell Scripting",
         "System Monitoring & Hardening",
-        "Configuration Management (Ansible, Puppet)",
-        "Patch Management",
-        "High Availability Systems",
-        "Edge-to-Cloud Infrastructure"
+        "Configuration Management (Ansible, Chef, Puppet)"
       ]
     },
     {
       "name": "Kubernetes & Container Orchestration",
       "keywords": [
-        "Kubernetes (EKS, AKS, GKE, RKE2, K3S)",
-        "Helm Charts & Custom Kubernetes Operators",
+        "Kubernetes (EKS, AKS, GKE, RKE2, K3S, OKE)",
+        "Development of Helm Charts & Custom Kubernetes Operators",
         "Service Mesh (Istio, Linkerd)",
         "OPA Gatekeeper, Kyverno",
         "Platform One Big Bang",
-        "Iron Bank Containers",
-        "Backstage Developer Portal"
+        "Docker, ECS , Compose and Swarm"
       ]
     },
     {
@@ -155,11 +151,7 @@
         "GitOps (fluxCD, ArgoCD)",
         "CI/CD Pipelines (GitHub Actions, GitLab CI, Jenkins)",
         "Infrastructure as Code (Terraform, CloudFormation, Crossplane)",
-        "Secrets Management (Vault, SOPS)",
-        "Security as Code",
-        "Policy-as-Code (OPA, Kyverno)",
-        "DevSecOps Pipelines",
-        "Compliance Automation"
+        "Secrets Management (Vault, SOPS)"
       ]
     },
     {
@@ -167,14 +159,12 @@
       "keywords": [
         "Prometheus & Grafana",
         "OpenTelemetry",
-        "Headlamp",
         "KubeVela",
-        "Kubernetes Dashboard",
-        "Check_MK, Grafana Agent",
+        "Kubernetes Dashboard and Headlamp",
+        "Nagios, Check_MK, Datadog",
         "Jaeger & Distributed Tracing",
         "ELK Stack, Fluentd, Loki",
         "Alerting & Incident Management (PagerDuty, OpsGenie)",
-        "Monitoring as Code (Prometheus Operator)",
         "SLOs, SLIs, Error Budgets"
       ]
     },
@@ -183,7 +173,7 @@
       "keywords": [
         "DISA STIG Compliance",
         "CIS Benchmarks",
-        "Container Security (Trivy, Aqua, Twistlock, Anchore)",
+        "Container Security (Trivy, Twistlock, Anchore)",
         "Infrastructure Security Scanning (Checkov, tfsec)",
         "RBAC, Network Policies",
         "Zero Trust Architecture",
@@ -194,16 +184,13 @@
     {
       "name": "AI/ML & LLM Integration",
       "keywords": [
-        "Kubeflow Pipelines",
-        "MLFlow",
-        "LLM Agents Architecture",
-        "LangChain, LangFlow",
+        "Kubeflow , MLFlow",
+        "LangChain, LangFlow, LLM Agents",
         "OpenAI API, HuggingFace Transformers",
         "Prompt Engineering",
         "Model Context Protocol (MCP)",
-        "Vector Databases (FAISS, Chroma, Pinecone)",
-        "Retrieval-Augmented Generation (RAG)",
-        "LLMOps in Air-Gapped Environments"
+        "Vector Databases (Chroma, Pinecone)",
+        "Retrieval-Augmented Generation (RAG)"
       ]
     },
     {
@@ -234,32 +221,31 @@
   "projects": [
     {
       "name": "ENBUILD",
-      "startDate": "2021-09-13",
       "description": "ENBUILD is a turnkey DevSecOps platform simplifying Kubernetes and Platform One Big Bang deployments across multi-cloud and on-premise environments.",
       "url": "https://enbuild-docs.vivplatform.io/",
       "highlights": [
-        "Led the R&D team to develop ENBUILD, and approved infrastrcutre as Code for different catalog items to be used in ENBUILD. E.g. Deploying multiple flavors of Kubernetes, Platform One Big Bang, and Kubeflow."
+        "Written Backend microservices in Golang for the ENBUILD platform, including LLM-powered chatbots and Terraform code generators.",
+        "Created IAC code using Terraform , Helm Charts , Crossplane to create the ENBUILD Catalog items for federal client requirements.",
+        "Evaluated K8s custom controller and operator frameworks for the ENBUILD platform along with Crossplane."
       ]
     },
     {
       "name": "Hitachi Accelerator Cloud Platform (HCAP)",
-      "startDate": "2018-09-09",
       "url": "https://www.reancloud.com/",
       "description": "HCAP is a suite of products to accelerate the migration and deployment, assessment of applications on Public Clouds.",
       "highlights": [
         "Migrated the cloud accelerator platforms to Kubernetes with all design and architecture",
+        "Created an Automation using Terraform to stand up EKS clusters to deploy the HCAP platform in SAAS offerning and Client Side deployment.",
         "Helped automation and deployment of the HCAP platform on Kubernetes in air gap environment for US Transcom"
       ]
     },
     {
-      "name": "Light Ning",
-      "startDate": "2012-10-25",
-      "endDate": "2016-09-21",
+      "name": "LiteNing",
       "url": "https://www.ning.com/",
-      "description": "Light Ning is an effort to merge the infrastructure and tooling of Ning Inc and mode media/glam media, after it was aquired.",
+      "description": "LiteNing is an effort to merge the infrastructure and tooling of Ning Inc and mode media/glam media, after it was aquired.",
       "highlights": [
         "Helped the migration of the infrastructure from Ning managed Data Centers to Mode Media Colocations.",
-        "Implemented a unified monitoring solution across the merged infrastructure to enhance operational visibility, using CHeck_MK and Nagios.",
+        "Implemented a unified monitoring solution across the merged infrastructure to enhance operational visibility, using Check_MK and Nagios.",
         "Automated bare metal deployment and LXC container virtualization using Cobbler and configuration management tool (Ansible)"
       ]
     }
@@ -277,7 +263,9 @@
         "Created and Integrated AI microservice written in Golang, including LLM-powered chatbots and Terraform code generators using LangChain, enhancing automation capabilities.",
         "Designed and implemented the Model Context Protocol (MCP) to integrate AI insights with observability tools like Grafana.",
         "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
-        "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards."
+        "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards.",
+        "Implemented monitoring and alerting solutions using Prometheus and Grafana for the ENBUILD platform.",
+        "Developed CI/CD pipelines for automated deployment of ENBUILD components using GitHub Actions."
       ],
       "old_details": [
         "Part of the VivSoft Platformn Team to architect build and stabilize the platform for solutions deployment on Kubernetes.",
