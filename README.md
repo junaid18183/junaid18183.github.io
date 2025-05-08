@@ -1,6 +1,6 @@
 ## Submodule 
 ```bash
-git submodule add https://github.com/A-Duck/jsonresume-theme-kendall.git jsonresume-theme-juned
+git submodule add https://github.com/junaid18183/jsonresume-theme-juned.git jsonresume-theme-juned
 git submodule update --init --recursive
 
 ```
