@@ -8,3 +8,6 @@ _data/_site/
 vendor/
 node_modules/*
 target/
+github_profile/*
+blog/*
+public/*

@@ -19,3 +19,9 @@ git submodule update --init --recursive
 ```bash
 git submodule update --remote
 ```
+
+## Local Testing
+
+```bash
+resume serve --theme jsonresume-theme-juned/
+```

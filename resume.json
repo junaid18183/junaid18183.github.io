@@ -1,7 +1,7 @@
 {
   "meta": {
-    "theme": "jsonresume-theme-professional"
-    },
+    "theme": "jsonresume-theme-kendall"
+  },
   "basics": {
     "name": "Juned Memon",
     "label": "DevOps | Platform Engineering | Cloud-Native Systems | System Engineer | Cloud Architect | LLM Integrator | AI/ML Systems",
@@ -9,8 +9,7 @@
     "image": "https://github.com/junaid18183.png",
     "email": "junaid18183@gmail.com",
     "phone": "+91-98238-41436",
-    "summary": "Versatile DevSecOps and Platform Engineering expert with 18+ years of hands-on experience designing scalable cloud-native solutions, Kubernetes-first architectures, and AI-integrated developer platforms. Adept at leading cross-functional teams and transforming traditional IT into high-performing automated infrastructures.",
-    "summary2": "Innovative Platform Engineering and DevSecOps leader with 18+ years of expertise architecting cloud-native solutions for mission-critical applications. Recognized for pioneering LLM-integrated IDP platforms, implementing AI/ML operational frameworks, and building Kubernetes-centric ecosystems with federal security compliance. Skilled at transforming complex technical requirements into scalable architectures while leading diverse engineering teams.",
+    "summary": "Versatile DevOps and Platform Engineering expert with 18+ years of hands-on experience designing scalable cloud-native solutions, Kubernetes-first architectures, and AI-integrated developer platforms. Adept at leading cross-functional teams.",
     "location": {
       "city": "Pune",
       "region": "Maharashtra",
@@ -232,21 +231,36 @@
       ]
     }
   ],
-  "interests": [
+  "projects": [
     {
-      "name": "Open Source Contributions",
-      "keywords": [
-        "Kubernetes Projects",
-        "DevSecOps Tools",
-        "GitOps Tools",
-        "AI/ML Frameworks",
-        "Reusable Infrastructure as Code modules"
+      "name": "ENBUILD",
+      "startDate": "2021-09-13",
+      "description": "ENBUILD is a turnkey DevSecOps platform simplifying Kubernetes and Platform One Big Bang deployments across multi-cloud and on-premise environments.",
+      "url": "https://enbuild-docs.vivplatform.io/",
+      "highlights": [
+        "Led the R&D team to develop ENBUILD, and approved infrastrcutre as Code for different catalog items to be used in ENBUILD. E.g. Deploying multiple flavors of Kubernetes, Platform One Big Bang, and Kubeflow."
       ]
     },
     {
-      "name": "Community Engagement",
-      "keywords": [
-        "DevSecOps Meetups"
+      "name": "Hitachi Accelerator Cloud Platform (HCAP)",
+      "startDate": "2018-09-09",
+      "url": "https://www.reancloud.com/",
+      "description": "HCAP is a suite of products to accelerate the migration and deployment, assessment of applications on Public Clouds.",
+      "highlights": [
+        "Migrated the cloud accelerator platforms to Kubernetes with all design and architecture",
+        "Helped automation and deployment of the HCAP platform on Kubernetes in air gap environment for US Transcom"
+      ]
+    },
+    {
+      "name": "Light Ning",
+      "startDate": "2012-10-25",
+      "endDate": "2016-09-21",
+      "url": "https://www.ning.com/",
+      "description": "Light Ning is an effort to merge the infrastructure and tooling of Ning Inc and mode media/glam media, after it was aquired.",
+      "highlights": [
+        "Helped the migration of the infrastructure from Ning managed Data Centers to Mode Media Colocations.",
+        "Implemented a unified monitoring solution across the merged infrastructure to enhance operational visibility, using CHeck_MK and Nagios.",
+        "Automated bare metal deployment and LXC container virtualization using Cobbler and configuration management tool (Ansible)"
       ]
     }
   ],
@@ -257,16 +271,13 @@
       "url": "https://www.vivsoft.io/",
       "position": "DevSecOps Lead & Platform Architect",
       "startDate": "2021-09-13",
-      "summary": "Led the architecture and development of ENBUILD integrating Platform One BigBang",
+      "summary": "Led the architecture and development of Open Source platform ENBUILD a human-centered UI accelerator that simplifies and automates the deployment of Platform One's Big Bang DevSecOps platform-enabling secure, compliant, and rapid Kubernetes-based software factory setups across cloud or on-premises environments",
       "highlights": [
-        "Architected and led the development of ENBUILD, a turnkey DevSecOps platform simplifying Platform One Big Bang deployments across multi-cloud and on-premise environments.",
-        "Integrated AI microservices, including LLM-powered chatbots and Terraform code generators using LangChain, enhancing automation capabilities.",
-        "Designed and implemented the Model Context Protocol (MCP) to integrate AI insights with observability tools like Grafana.",
         "Automated configuration and deployment of Platform One Big Bang on RKE2/EKS Kubernetes using Iron Bank containers, focusing on compliance and security baselines.",
-        "Built an automation for installing secure MLOps environments using Kubeflow, addressing basic data ingestion and model deployment workflows in air-gapped scenarios.",
+        "Created and Integrated AI microservice written in Golang, including LLM-powered chatbots and Terraform code generators using LangChain, enhancing automation capabilities.",
+        "Designed and implemented the Model Context Protocol (MCP) to integrate AI insights with observability tools like Grafana.",
         "Implemented GitOps workflows using ArgoCD and fluxCD for consistent, version-controlled deployments across multiple Kubernetes clusters.",
-        "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards.",
-        "Developed automated testing frameworks for CI/CD pipelines, enhancing deployment reliability and reducing integration issues."
+        "Secured ENBUILD Containers and got them approved for Iron Bank, ensuring compliance with federal security standards."
       ],
       "old_details": [
         "Part of the VivSoft Platformn Team to architect build and stabilize the platform for solutions deployment on Kubernetes.",
@@ -287,7 +298,6 @@
       "highlights": [
         "Architected full platform migration to Kubernetes with Helm packaging and automated CI/CD pipelines.",
         "Implemented air-gapped deployments using Terraform and STIG-hardened AMIs to meet federal compliance requirements.",
-        "Contributed to core product architecture, designing cloud-native accelerator solutions for regulated industries.",
         "Developed automated STIG (Security Technical Implementation Guides) compliance workflows for AMIs and containers",
         "Defined microservices deployment strategies for high-scale online portals with enhanced resilience.",
         "Delivered CI/CD automation for an Independent Software Vendor (ISV), accelerating delivery on Kubernetes.",
@@ -298,7 +308,6 @@
       "old_details": [
         "Lead an international DevSecOps team to build the automation for accelerator products of the company.Utilized standard DevOps tools including Kubernetes, Docker, Chef, CloudFormation, Terraform, git, Jenkins, Docker",
         "-  Part of in-house product architecture team to build the company's accelerator products.",
-        "-  Migrated the cloud accelerator platform to Kubernetes with all design and architecture",
         "-  Assisted with STIGing, scanning and remediation for AMI/Docker container to meet client standards.",
         "-  Designed the process of Installation and configuration of cloud accelerator platform in AirGap environments.",
         "-  Part of delivery project for online portal defining the deployment architecture for microservices.",
@@ -309,6 +318,7 @@
     {
       "name": "Mode Media Corporation / Ning Inc",
       "company": "Mode Media Corporation / Ning Inc",
+      "url": "https://www.ning.com/",
       "url_old": "https://techcrunch.com/2011/09/20/glam-buys-ning-andreessen-joins-board/",
       "position": "Senior Manager - Technical Operations",
       "startDate": "2012-10-25",
@@ -325,7 +335,6 @@
       ],
       "old_details": [
         "Managing team of system engineers to maintain the large scale infrastructure and applications.",
-        "- Automated bare metal deployment and LXC container virtualization using Cobbler and configuration management tool (Ansible)",
         "- Migrated the ADSERVING platform to AWS from co location and converted that in micro service architecture using Docker.",
         "- Implemented the distributed monitoring for Infrastructure to monitor 3500 servers and 50K services using Nagios/Check_MK with custom plugins.",
         "- Implemented and customized DevOps tools for automation e.g. GitLab, Yum Repos, DNS , Inventory, Slack , Haproxy, Hadoop etc.",
