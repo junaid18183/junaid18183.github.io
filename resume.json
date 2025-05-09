@@ -112,9 +112,8 @@
         "Hybrid and Multi-Cloud Architecture",
         "Cloud-Native Platforms",
         "Air-Gapped Infrastructure",
-        "Internal Developer Platforms (IDP) Engineering",
         "Backstage Developer Portal",
-        "Infrastructure Cost Optimization"
+        "Cloud Cost Optimization"
       ]
     },
     {
@@ -130,7 +129,7 @@
       "name": "Kubernetes & Container Orchestration",
       "keywords": [
         "Kubernetes (EKS, AKS, GKE, RKE2, K3S, OKE)",
-        "Development of Helm Charts & Custom Kubernetes Operators",
+        "Development of Helm Charts & Custom Kubernetes Controllers/Operators",
         "Service Mesh (Istio, Linkerd)",
         "OPA Gatekeeper, Kyverno",
         "Platform One Big Bang",
@@ -166,11 +165,7 @@
         "DISA STIG Compliance",
         "CIS Benchmarks",
         "Container Security (Trivy, Twistlock, Anchore)",
-        "Infrastructure Security Scanning (Checkov, tfsec)",
-        "RBAC, Network Policies",
-        "Zero Trust Architecture",
-        "Vulnerability Management",
-        "Security Automation"
+        "Infrastructure Security Scanning (Checkov, tfsec)"
       ]
     },
     {
@@ -186,14 +181,11 @@
       ]
     },
     {
-      "name": "Programming, Scripting & APIs",
+      "name": "Programming, Scripting",
       "keywords": [
-        "Python",
-        "Golang",
         "Bash",
-        "REST & gRPC API Development",
-        "IaC Scripting (Terraform, YAML)",
-        "Automation Workflows"
+        "Python",
+        "Golang"
       ]
     },
     {
